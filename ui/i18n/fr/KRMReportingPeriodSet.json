@@ -1,0 +1,20 @@
+{
+  "KRMReportingPeriodSet.AttributionTemplate.schema.field.objectId.label": "ID du template d’attribution",
+  "KRMReportingPeriodSet.library.label.base.Accordion.attribution_template_details.details.title": "Détails du template d’attribution",
+  "KRMReportingPeriodSet.library.label.base.Button.save.label": "Enregistrer",
+  "KRMReportingPeriodSet.library.label.base.DropdownWidget.TypeDropdown.label": "Type de période de reporting",
+  "KRMReportingPeriodSet.library.label.base.DropdownWidget.TypeDropdown.option.1.label": "Basé sur la date",
+  "KRMReportingPeriodSet.library.label.base.DropdownWidget.TypeDropdown.option.2.label": "Basé sur le terme",
+  "KRMReportingPeriodSet.library.label.base.DropdownWidget.TypeDropdown.option.3.label": "IRRBB",
+  "KRMReportingPeriodSet.library.label.base.GenericSpreadsheetWidget.DateBasedSpreadsheet.label": "Feuille de calcul",
+  "KRMReportingPeriodSet.library.label.base.GenericSpreadsheetWidget.TermBasedSpreadsheet.label": "Feuille de calcul",
+  "KRMReportingPeriodSet.library.label.base.RadioButtonGroupWidget.reportTypeWidget.option.1.label": "Basé sur la date",
+  "KRMReportingPeriodSet.library.label.base.RadioButtonGroupWidget.reportTypeWidget.option.2.label": "Période",
+  "KRMReportingPeriodSet.library.label.base.RadioButtonGroupWidget.reportTypeWidget.option.3.label": "IRRB",
+  "KRMReportingPeriodSet.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "KRMReportingPeriodSet.library.label.base.TabView.attribution_template_tabs.1.title": "Documentation",
+  "KRMReportingPeriodSet.library.label.base.TabView.attribution_template_tabs.2.title": "Historique des modifications",
+  "KRMReportingPeriodSet.library.label.base.TabView.attribution_template_tabs.tabDetails.title": "Détails",
+  "KRMReportingPeriodSet.library.label.base.TabView.main_tabs.tabDetails.title": "Détails",
+  "undefined": "Onglet"
+}

@@ -1,0 +1,15 @@
+{
+  "KPI.KPI.schema.field.category.label": "Kategoria wskaźnika KPI",
+  "KPI.KPI.schema.field.thresholdsApplicable.help.label": "Opcja umożliwia ustawienie progów monitorowania kondycji wskaźnika KPI. Wybierz ją, jeśli wskaźnik KPI jest pojedynczą wartością mierzalną.",
+  "KPI.KPI.schema.field.thresholdsBetterBound.help.label": "Aplikacja przypisuje pasmo kolorów progu na podstawie wybranego zakresu kondycji wskaźnika KPI.",
+  "KPI.KPI.schema.field.thresholdsBetterBound.label": "Która z poniższych wartości wskaźnika KPI przedstawia lepszą kondycję?",
+  "KPI.library.label.base.Button.save_button.label": "Zapisz",
+  "KPI.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "KPI.library.label.base.TabView.TabView.changeHistory.title": "Historia zmian",
+  "KPI.library.label.base.TabView.TabView.code.title": "Kod",
+  "KPI.library.label.base.TabView.TabView.details.title": "Informacje",
+  "KPI.library.label.base.TabView.TabView.documentation.title": "Dokumentacja",
+  "KPI.library.label.base.TabView.TabView.relatedObjects.title": "Powiązane obiekty",
+  "KPI.library.label.base.TabView.TabView.tab_parameters.title": "Parametry",
+  "KPI.library.label.base.TabView.TabView.threshold.title": "Próg"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "CORE",
+  "objects": [
+    "AnalysisData",
+    "AnalysisRun",
+    "AttributionTemplate",
+    "CodeLibrary",
+    "ConfigurationSet",
+    "ConfigurationTable",
+    "Cycle",
+    "DataDefinition",
+    "DataMap",
+    "DataSecurityRule",
+    "Finding",
+    "Form",
+    "KPI",
+    "KRMReportingPeriodSet",
+    "Model",
+    "ModelReview",
+    "MonitoringPlan",
+    "RuleSet",
+    "SampleObject",
+    "Script",
+    "User",
+    "WorkflowTemplate"
+  ],
+  "sasProvided": true
+}

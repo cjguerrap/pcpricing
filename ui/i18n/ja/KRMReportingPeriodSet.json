@@ -1,0 +1,20 @@
+{
+  "KRMReportingPeriodSet.AttributionTemplate.schema.field.objectId.label": "アトリビューションテンプレート ID",
+  "KRMReportingPeriodSet.library.label.base.Accordion.attribution_template_details.details.title": "アトリビューションテンプレートの詳細",
+  "KRMReportingPeriodSet.library.label.base.Button.save.label": "保存",
+  "KRMReportingPeriodSet.library.label.base.DropdownWidget.TypeDropdown.label": "レポート期間の種類",
+  "KRMReportingPeriodSet.library.label.base.DropdownWidget.TypeDropdown.option.1.label": "日付ベース",
+  "KRMReportingPeriodSet.library.label.base.DropdownWidget.TypeDropdown.option.2.label": "期間ベース",
+  "KRMReportingPeriodSet.library.label.base.DropdownWidget.TypeDropdown.option.3.label": "IRRBB",
+  "KRMReportingPeriodSet.library.label.base.GenericSpreadsheetWidget.DateBasedSpreadsheet.label": "スプレッドシート",
+  "KRMReportingPeriodSet.library.label.base.GenericSpreadsheetWidget.TermBasedSpreadsheet.label": "スプレッドシート",
+  "KRMReportingPeriodSet.library.label.base.RadioButtonGroupWidget.reportTypeWidget.option.1.label": "日付ベース",
+  "KRMReportingPeriodSet.library.label.base.RadioButtonGroupWidget.reportTypeWidget.option.2.label": "期間",
+  "KRMReportingPeriodSet.library.label.base.RadioButtonGroupWidget.reportTypeWidget.option.3.label": "IRRB",
+  "KRMReportingPeriodSet.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "KRMReportingPeriodSet.library.label.base.TabView.attribution_template_tabs.1.title": "ドキュメント",
+  "KRMReportingPeriodSet.library.label.base.TabView.attribution_template_tabs.2.title": "変更履歴",
+  "KRMReportingPeriodSet.library.label.base.TabView.attribution_template_tabs.tabDetails.title": "詳細",
+  "KRMReportingPeriodSet.library.label.base.TabView.main_tabs.tabDetails.title": "詳細",
+  "undefined": "タブ"
+}

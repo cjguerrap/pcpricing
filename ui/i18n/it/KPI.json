@@ -1,0 +1,15 @@
+{
+  "KPI.KPI.schema.field.category.label": "Categoria KPI",
+  "KPI.KPI.schema.field.thresholdsApplicable.help.label": "Questa opzione consente di impostare soglie per il monitoraggio dell’integrità del KPI. Selezionare questa opzione se il KPI è un singolo valore misurabile.",
+  "KPI.KPI.schema.field.thresholdsBetterBound.help.label": "L’applicazione assegna la banda di colore della soglia in base al range selezionato di integrità del KPI.",
+  "KPI.KPI.schema.field.thresholdsBetterBound.label": "Quale dei seguenti valori del KPI rappresenta uno stato di salute migliore?",
+  "KPI.library.label.base.Button.save_button.label": "Salva",
+  "KPI.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "KPI.library.label.base.TabView.TabView.changeHistory.title": "Cronologia delle modifiche",
+  "KPI.library.label.base.TabView.TabView.code.title": "Codice",
+  "KPI.library.label.base.TabView.TabView.details.title": "Dettagli",
+  "KPI.library.label.base.TabView.TabView.documentation.title": "Documentazione",
+  "KPI.library.label.base.TabView.TabView.relatedObjects.title": "Oggetti correlati",
+  "KPI.library.label.base.TabView.TabView.tab_parameters.title": "Parametri",
+  "KPI.library.label.base.TabView.TabView.threshold.title": "Soglia"
+}

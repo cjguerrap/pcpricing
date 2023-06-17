@@ -1,0 +1,15 @@
+{
+  "KPI.KPI.schema.field.category.label": "Catégorie de KPI",
+  "KPI.KPI.schema.field.thresholdsApplicable.help.label": "Cette option permet de définir des seuils pour la surveillance de l’intégrité du KPI. Sélectionnez cette option si le KPI est une valeur mesurable unique.",
+  "KPI.KPI.schema.field.thresholdsBetterBound.help.label": "L’application affecte la bande de couleur du seuil en fonction de la plage d’intégrité du KPI sélectionnée.",
+  "KPI.KPI.schema.field.thresholdsBetterBound.label": "Laquelle des valeurs de KPI suivantes représente une meilleure intégrité ?",
+  "KPI.library.label.base.Button.save_button.label": "Enregistrer",
+  "KPI.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "KPI.library.label.base.TabView.TabView.changeHistory.title": "Historique des modifications",
+  "KPI.library.label.base.TabView.TabView.code.title": "Code",
+  "KPI.library.label.base.TabView.TabView.details.title": "Détails",
+  "KPI.library.label.base.TabView.TabView.documentation.title": "Documentation",
+  "KPI.library.label.base.TabView.TabView.relatedObjects.title": "Objets associés",
+  "KPI.library.label.base.TabView.TabView.tab_parameters.title": "Paramètres",
+  "KPI.library.label.base.TabView.TabView.threshold.title": "Seuil"
+}
