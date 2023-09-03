@@ -1,0 +1,20 @@
+{
+  "KRMReportingPeriodSet.AttributionTemplate.schema.field.objectId.label": "XAttribution template ID补Z",
+  "KRMReportingPeriodSet.library.label.base.Accordion.attribution_template_details.details.title": "XAttribution Template Details补Z",
+  "KRMReportingPeriodSet.library.label.base.Button.save.label": "XSave补Z",
+  "KRMReportingPeriodSet.library.label.base.DropdownWidget.TypeDropdown.label": "XReporting period type补Z",
+  "KRMReportingPeriodSet.library.label.base.DropdownWidget.TypeDropdown.option.1.label": "XDate based补Z",
+  "KRMReportingPeriodSet.library.label.base.DropdownWidget.TypeDropdown.option.2.label": "XTerm based补Z",
+  "KRMReportingPeriodSet.library.label.base.DropdownWidget.TypeDropdown.option.3.label": "XIRRBB补Z",
+  "KRMReportingPeriodSet.library.label.base.GenericSpreadsheetWidget.DateBasedSpreadsheet.label": "XSpreadsheet补Z",
+  "KRMReportingPeriodSet.library.label.base.GenericSpreadsheetWidget.TermBasedSpreadsheet.label": "XSpreadsheet补Z",
+  "KRMReportingPeriodSet.library.label.base.RadioButtonGroupWidget.reportTypeWidget.option.1.label": "XDate based补Z",
+  "KRMReportingPeriodSet.library.label.base.RadioButtonGroupWidget.reportTypeWidget.option.2.label": "XPeriod补Z",
+  "KRMReportingPeriodSet.library.label.base.RadioButtonGroupWidget.reportTypeWidget.option.3.label": "XIRRB补Z",
+  "KRMReportingPeriodSet.library.label.base.ReadonlyFieldWidget.name_readonly.label": "X 补Z",
+  "KRMReportingPeriodSet.library.label.base.TabView.attribution_template_tabs.1.title": "XDocumentation补Z",
+  "KRMReportingPeriodSet.library.label.base.TabView.attribution_template_tabs.2.title": "XChange History补Z",
+  "KRMReportingPeriodSet.library.label.base.TabView.attribution_template_tabs.tabDetails.title": "XDetails补Z",
+  "KRMReportingPeriodSet.library.label.base.TabView.main_tabs.tabDetails.title": "XDetails补Z",
+  "undefined": "XTab补Z"
+}

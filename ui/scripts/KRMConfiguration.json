@@ -1,0 +1,390 @@
+{
+  "onCreate": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_widgetID"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "4e1addeb-254a-4f72-aede-f91d71074aed",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "buildDraftLocation",
+          "library": "WidgetObjectManager",
+          "params": {
+            "entrypoint": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "draft"
+            },
+            "widgetID": {
+              "datatype": "text",
+              "name": "input_widgetID",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "location",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "nav",
+        "id": "20c5147d-7548-413b-b077-8507af4f6782",
+        "isCommented": false,
+        "location": {
+          "datatype": "text",
+          "name": "location",
+          "scope": "local"
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "onDelete": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_widgetID"
+      },
+      {
+        "datatype": "numeric array",
+        "name": "input_keys"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "9fa1c1a9-2169-4b01-8172-b667453f738b",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getObjectType",
+          "library": "WidgetObjectManager",
+          "params": {
+            "widgetID": {
+              "datatype": "text",
+              "name": "input_widgetID",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "deleteObjects",
+        "id": "a188bb70-1cfc-43d5-b839-ffe96ebedf88",
+        "isCommented": false,
+        "library": "CirrusLibCirrusKRM",
+        "params": {
+          "keys": {
+            "datatype": "numeric array",
+            "name": "input_keys",
+            "scope": "local"
+          },
+          "type": {
+            "datatype": "text",
+            "name": "objectType",
+            "scope": "local"
+          }
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "onEdit": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_widgetID"
+      },
+      {
+        "datatype": "text",
+        "name": "input_key"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "d579a152-3f11-4a49-b8cb-bc5478733c21",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "buildEditLocation",
+          "library": "WidgetObjectManager",
+          "params": {
+            "entrypoint": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "edit"
+            },
+            "key": {
+              "datatype": "numeric",
+              "name": "input_key",
+              "scope": "local"
+            },
+            "widgetID": {
+              "datatype": "text",
+              "name": "input_widgetID",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "location",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "nav",
+        "id": "783364c4-59eb-40e8-bf16-d57c77284ee3",
+        "isCommented": false,
+        "location": {
+          "datatype": "text",
+          "name": "location",
+          "scope": "local"
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "onFetch": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_widgetID"
+      },
+      {
+        "datatype": "text array",
+        "name": "input_fields"
+      },
+      {
+        "datatype": "text",
+        "name": "input_filter"
+      },
+      {
+        "datatype": "numeric",
+        "name": "input_limit"
+      },
+      {
+        "datatype": "SortBy",
+        "name": "input_sortBy"
+      },
+      {
+        "datatype": "numeric",
+        "name": "input_start"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "44cab0b8-a164-4a4a-8a2d-906a87c84ef3",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getObjectType",
+          "library": "WidgetObjectManager",
+          "params": {
+            "widgetID": {
+              "datatype": "text",
+              "name": "input_widgetID",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "3e84b43d-6768-4a96-bd1e-f3cdacfe6293",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "fetchObjectsWithCount",
+          "library": "CirrusLibCirrusKRM",
+          "params": {
+            "filter": {
+              "datatype": "text",
+              "name": "input_filter",
+              "scope": "local"
+            },
+            "limit": {
+              "datatype": "numeric",
+              "name": "input_limit",
+              "scope": "local"
+            },
+            "sortBy": {
+              "datatype": "SortBy",
+              "name": "input_sortBy",
+              "scope": "local"
+            },
+            "start": {
+              "datatype": "numeric",
+              "name": "input_start",
+              "scope": "local"
+            },
+            "type": {
+              "datatype": "text",
+              "name": "objectType",
+              "scope": "local"
+            }
+          },
+          "returnType": "All Data"
+        },
+        "variable": {
+          "datatype": "All Data",
+          "name": "items",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "returnvar",
+        "id": "4de2ddee-20a9-4da8-bcad-adb6b64d1646",
+        "isCommented": false,
+        "variable": {
+          "datatype": "All Data",
+          "name": "items",
+          "scope": "local"
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "onPageLoad": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "setprop",
+        "comment": "Although we set the object type on the object manager component through the Props panel, this isn't properly setting the objectType on the core instance which means we need this widget action to properly set the object type.",
+        "function": "setObjectType",
+        "id": "6b6cfcc7-25e5-4c1d-b358-0869e34436e2",
+        "isCommented": false,
+        "params": {
+          "objectType": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "KRMReportingPeriodSet"
+          }
+        },
+        "widgetId": "reporting_period_obj_manager"
+      },
+      {
+        "action": "setvar",
+        "id": "2e4ddcb9-b81a-420b-b989-553f5548c60d",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "isCurrentUserAdministrator",
+          "library": "CirrusLibCurrentUser",
+          "params": {},
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isAdmin",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "09c86dbd-c6d9-4c2f-b819-c39a8a7cdbed",
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isAdmin",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "userCanAlwaysDelete",
+        "id": "484140ae-a412-412e-b5f8-7668ee9b0614",
+        "isCommented": false,
+        "params": {
+          "canDeleteEverywhere": {
+            "datatype": "boolean",
+            "scope": "fixed",
+            "value": true
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "reporting_period_obj_manager"
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "5ab74a73-19f8-4694-a1f1-e7144b73917b",
+        "isCommented": false,
+        "main": "09c86dbd-c6d9-4c2f-b819-c39a8a7cdbed",
+        "test": {
+          "datatype": "boolean",
+          "name": "isAdmin",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "hideCopyButton",
+        "id": "518a0e81-fa1c-4972-b099-470c36767bf9",
+        "isCommented": false,
+        "params": {
+          "hideCopy": {
+            "datatype": "boolean",
+            "scope": "fixed",
+            "value": true
+          }
+        },
+        "widgetId": "reporting_period_obj_manager"
+      },
+      {
+        "action": "setprop",
+        "function": "hideExportButton",
+        "id": "d9f0cf28-124a-4a2a-b884-51156577e1df",
+        "isCommented": false,
+        "params": {
+          "hideExport": {
+            "datatype": "boolean",
+            "scope": "fixed",
+            "value": true
+          }
+        },
+        "widgetId": "reporting_period_obj_manager"
+      },
+      {
+        "action": "setprop",
+        "function": "hideFilterButton",
+        "id": "cb52afbc-b226-4a86-a967-b3f3aded678e",
+        "isCommented": false,
+        "params": {
+          "hideFilter": {
+            "datatype": "boolean",
+            "scope": "fixed",
+            "value": true
+          }
+        },
+        "widgetId": "reporting_period_obj_manager"
+      }
+    ],
+    "sasProvided": true
+  }
+}

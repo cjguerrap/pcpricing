@@ -1,0 +1,2551 @@
+{
+  "getLocalisedObjectType": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "3894422e-d6ac-4462-8795-f10e10edfbc1",
+        "type": "calculated",
+        "value": {
+          "function": "getCurrentObjectType",
+          "library": "CirrusLibPageData",
+          "params": {},
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "668a9d7e-f6ab-41f3-a46e-ccfe5e2f8c92",
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": ".schema.name.singular.title"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "i18nSuffix",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "b7e54715-58f4-452f-9d24-3ad725222900",
+        "type": "calculated",
+        "value": {
+          "function": "concat",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "objectType",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "name": "i18nSuffix",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectTypePropString",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "1df2a622-a1ce-4d8c-83ce-a3cfa9ff1641",
+        "type": "calculated",
+        "value": {
+          "function": "getMessageProperty",
+          "library": "CirrusLibLocalization",
+          "params": {
+            "messageKey": {
+              "datatype": "text",
+              "name": "objectTypePropString",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "localisedObjectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "returnvar",
+        "id": "0a736547-9eac-42cf-a9d9-b7b4fd9a9311",
+        "variable": {
+          "datatype": "text",
+          "name": "localisedObjectType",
+          "scope": "local"
+        }
+      }
+    ],
+    "resolveEachStep": false,
+    "sasProvided": true
+  },
+  "maxReducer": {
+    "inputs": [
+      {
+        "datatype": "numeric",
+        "name": "input_accumulator"
+      },
+      {
+        "datatype": "numeric",
+        "name": "input_value"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "f7d5b4de-5daa-411a-8b49-7f0262bcd1bf",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "gt",
+          "library": "CirrusLibMath",
+          "params": {
+            "number1": {
+              "datatype": "numeric",
+              "name": "input_value",
+              "scope": "local"
+            },
+            "number2": {
+              "datatype": "numeric",
+              "name": "input_accumulator",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "valueGreater",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "bc25522c-78ec-40d4-945c-b9ec801f0c02",
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "valueGreater",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "returnvar",
+        "id": "9a6bf3a4-78e6-4696-934b-754f3f41bdc5",
+        "isCommented": false,
+        "variable": {
+          "datatype": "numeric",
+          "name": "input_value",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "3ea164f6-3678-4420-8d5a-f89bb9234f1e",
+        "isCommented": false,
+        "main": "bc25522c-78ec-40d4-945c-b9ec801f0c02",
+        "test": {
+          "datatype": "boolean",
+          "name": "valueGreater",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "returnvar",
+        "id": "207d1169-ca4f-49ef-932d-820c136707cc",
+        "isCommented": false,
+        "variable": {
+          "datatype": "numeric",
+          "name": "input_accumulator",
+          "scope": "local"
+        }
+      }
+    ],
+    "resolveEachStep": false,
+    "sasProvided": true
+  },
+  "onAddPeriod": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_widgetID"
+      },
+      {
+        "name": "input_keys"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "12533ff1-462c-4523-aba1-7d8cacf6c3e2",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "strEquals",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "TermBasedSpreadsheet"
+            },
+            "string2": {
+              "datatype": "text",
+              "name": "input_widgetID",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isTermBased",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "a955bb61-52b0-4f73-a010-5c771ce1ca34",
+        "includeElse": true,
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isTermBased",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "2637894f-214f-4a8e-864e-e0f10706bfa3",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "get",
+          "library": "CirrusLibObject",
+          "params": {
+            "name": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "rowState"
+            },
+            "object": {
+              "datatype": "object",
+              "name": "TermBasedSpreadsheet",
+              "scope": "data",
+              "target": "$self$"
+            }
+          },
+          "returnType": "\u003cany\u003e"
+        },
+        "variable": {
+          "datatype": "\u003cany\u003e",
+          "name": "rowData",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "d218b6a8-57fc-44f7-906e-5ac9fcde9795",
+        "includeElse": true,
+        "isCommented": false,
+        "iselse": true,
+        "main": "a955bb61-52b0-4f73-a010-5c771ce1ca34",
+        "test": {
+          "datatype": "boolean",
+          "name": "isTermBased",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "3ed28c6e-4d8b-4763-ac42-1f9cda041583",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "get",
+          "library": "CirrusLibObject",
+          "params": {
+            "name": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "rowState"
+            },
+            "object": {
+              "datatype": "object",
+              "name": "DateBasedSpreadsheet",
+              "scope": "data",
+              "target": "$self$"
+            }
+          },
+          "returnType": "\u003cany\u003e"
+        },
+        "variable": {
+          "datatype": "\u003cany\u003e",
+          "name": "rowData",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "bf843604-089b-4cfb-9f6e-bc11a8b040e6",
+        "includeElse": true,
+        "isCommented": false,
+        "main": "a955bb61-52b0-4f73-a010-5c771ce1ca34",
+        "test": {
+          "datatype": "boolean",
+          "name": "isTermBased",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "08257cd7-44ee-4f75-ab76-10d93c1c255f",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "isNullOrUndefined",
+          "library": "CirrusLibGeneral",
+          "params": {
+            "value": {
+              "name": "rowData",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "noRowData",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "66733ee5-2f7f-4edd-8699-5acd114279a1",
+        "includeElse": true,
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "noRowData",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "6b7c0414-b4a7-47c9-8e59-88ce2f33e485",
+        "isCommented": false,
+        "type": "fixed",
+        "value": {
+          "datatype": "numeric",
+          "dataval": 0
+        },
+        "variable": {
+          "datatype": "numeric",
+          "name": "zero",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "c122a0bb-6f6f-4d87-a162-cffbecf1beec",
+        "isCommented": false,
+        "type": "variable",
+        "value": {
+          "datatype": "numeric",
+          "name": "zero",
+          "scope": "local"
+        },
+        "variable": {
+          "datatype": "numeric",
+          "name": "numberOfPeriods",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "79133f4e-18c6-4b08-a121-c2bd139cbd96",
+        "includeElse": true,
+        "isCommented": false,
+        "iselse": true,
+        "main": "66733ee5-2f7f-4edd-8699-5acd114279a1",
+        "test": {
+          "datatype": "boolean",
+          "name": "noRowData",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "6f6d865f-252d-4c90-9a57-e983e095c01d",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getValuesFromObjectArray",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "name": "rowData",
+              "scope": "local"
+            },
+            "propertyName": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "periodNum"
+            }
+          },
+          "returnType": "\u003cIncoming\u003e array"
+        },
+        "variable": {
+          "datatype": "\u003cIncoming\u003e array",
+          "name": "periodNums",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "2a1f0b05-7493-495d-9813-8a5927d80b2e",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "size",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "name": "periodNums",
+              "scope": "local"
+            }
+          },
+          "returnType": "numeric"
+        },
+        "variable": {
+          "datatype": "numeric",
+          "name": "numberOfPeriods",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "7660e4ee-90c6-42b1-a402-5df8107a1f69",
+        "includeElse": true,
+        "isCommented": false,
+        "main": "66733ee5-2f7f-4edd-8699-5acd114279a1",
+        "test": {
+          "datatype": "boolean",
+          "name": "noRowData",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "84bb00db-e550-4701-9477-b00e69a722dd",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "eq",
+          "library": "CirrusLibMath",
+          "params": {
+            "number1": {
+              "datatype": "numeric",
+              "name": "numberOfPeriods",
+              "scope": "local"
+            },
+            "number2": {
+              "datatype": "numeric",
+              "scope": "fixed",
+              "value": 0
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "noPeriods",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "e19b0ff2-58b3-4a7f-b69b-58a57666fd04",
+        "includeElse": true,
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "noPeriods",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "dd1d822f-f713-44fc-b285-01501a6b12c8",
+        "isCommented": false,
+        "type": "fixed",
+        "value": {
+          "datatype": "numeric",
+          "dataval": 1
+        },
+        "variable": {
+          "datatype": "numeric",
+          "name": "newPeriodNum",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "df19be10-c23f-4467-8913-d248c68f4535",
+        "includeElse": true,
+        "iselse": true,
+        "main": "e19b0ff2-58b3-4a7f-b69b-58a57666fd04",
+        "test": {
+          "datatype": "boolean",
+          "name": "noPeriods",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "a8b924f6-b7da-44a1-90e2-500a290ff30d",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "reduce",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "name": "periodNums",
+              "scope": "local"
+            },
+            "callback": {
+              "function": "maxReducer",
+              "library": "$interactions$",
+              "params": {
+                "input_accumulator": {
+                  "datatype": "numeric",
+                  "label": "Accumulator",
+                  "name": "loop_accumulator",
+                  "scope": "local"
+                },
+                "input_value": {
+                  "label": "Current value",
+                  "name": "loop_currentValue",
+                  "scope": "local"
+                }
+              },
+              "returnType": "numeric"
+            },
+            "initialValue": {
+              "datatype": "numeric",
+              "scope": "fixed",
+              "value": "0"
+            }
+          },
+          "returnType": "numeric"
+        },
+        "variable": {
+          "datatype": "numeric",
+          "name": "maxPeriodNum",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "f629826c-8b26-4e06-bd3f-2e9fb2a43254",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "add",
+          "library": "CirrusLibMath",
+          "params": {
+            "from": {
+              "datatype": "numeric",
+              "name": "maxPeriodNum",
+              "scope": "local"
+            },
+            "number": {
+              "datatype": "numeric",
+              "scope": "fixed",
+              "value": 1
+            }
+          },
+          "returnType": "numeric"
+        },
+        "variable": {
+          "datatype": "numeric",
+          "name": "newPeriodNum",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "595a5362-23d6-4738-9259-bada006ba405",
+        "includeElse": true,
+        "isCommented": false,
+        "main": "e19b0ff2-58b3-4a7f-b69b-58a57666fd04",
+        "test": {
+          "datatype": "boolean",
+          "name": "noPeriods",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "ae1e3b5c-555f-4632-91e5-7d9af9770667",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "createEmptyObject",
+          "library": "CirrusLibObject",
+          "params": {},
+          "returnType": "object"
+        },
+        "variable": {
+          "datatype": "object",
+          "name": "newRow",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "3a0726d4-4e9f-46b3-bb1b-d97dcbf1243a",
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isTermBased",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "set",
+        "id": "11c6641d-3fb2-48e5-80ae-4bfbe342ce82",
+        "isCommented": false,
+        "library": "CirrusLibObject",
+        "params": {
+          "name": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "endTermUnit"
+          },
+          "object": {
+            "datatype": "object",
+            "name": "newRow",
+            "scope": "local"
+          },
+          "value": {
+            "scope": "fixed",
+            "value": "M"
+          }
+        },
+        "returnType": "object"
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "62586877-acf4-4e83-a4da-21d7c4ba631c",
+        "isCommented": false,
+        "main": "3a0726d4-4e9f-46b3-bb1b-d97dcbf1243a",
+        "test": {
+          "datatype": "boolean",
+          "name": "isTermBased",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "set",
+        "id": "7c1fbf60-8039-430e-9c2a-c0b27f040cdc",
+        "isCommented": false,
+        "library": "CirrusLibObject",
+        "params": {
+          "name": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "periodNum"
+          },
+          "object": {
+            "datatype": "object",
+            "name": "newRow",
+            "scope": "local"
+          },
+          "value": {
+            "datatype": "numeric",
+            "name": "newPeriodNum",
+            "scope": "local"
+          }
+        },
+        "returnType": "object"
+      },
+      {
+        "action": "returnvar",
+        "id": "f249245e-0dc7-47f9-a449-731d3fcba451",
+        "isCommented": false,
+        "variable": {
+          "datatype": "object",
+          "name": "newRow",
+          "scope": "local"
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "onAnyEvent": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "d4c1dfc4-632b-46ae-a135-67a166a25ad6",
+        "type": "calculated",
+        "value": {
+          "function": "getDiffJSONPatch",
+          "library": "CirrusLibPageData",
+          "params": {},
+          "returnType": "Patch array"
+        },
+        "variable": {
+          "datatype": "Patch array",
+          "name": "patch",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "d3c1f6c8-099e-4027-85c8-7fae6fa783a1",
+        "type": "calculated",
+        "value": {
+          "function": "isObjectPageDirty",
+          "library": "CirrusLibCirrusKRM",
+          "params": {
+            "patch": {
+              "datatype": "Patch array",
+              "name": "patch",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isPageDirty",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "e6055f2e-50ad-4533-9434-54d42a84a4fc",
+        "type": "calculated",
+        "value": {
+          "function": "not",
+          "library": "CirrusLibBoolean",
+          "params": {
+            "bool": {
+              "datatype": "boolean",
+              "name": "isPageDirty",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isNotDirty",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setReadOnly",
+        "id": "44a76eb6-71b3-4e7b-84ce-d3481cb6c029",
+        "params": {
+          "readOnly": {
+            "datatype": "boolean",
+            "name": "isNotDirty",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "save"
+      },
+      {
+        "action": "execfunc",
+        "function": "setTabDirty",
+        "id": "989f93d8-d3c0-4878-a5d8-50b3b0739494",
+        "library": "CirrusLibPageData",
+        "params": {
+          "isDirty": {
+            "datatype": "boolean",
+            "name": "isPageDirty",
+            "scope": "local"
+          }
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "onDraftLoad": {
+    "inputs": [
+      {
+        "datatype": "numeric",
+        "name": "input_id"
+      }
+    ],
+    "logic": [
+      {
+        "action": "execfunc",
+        "function": "setRequiredFields",
+        "id": "cc8e04fc-4636-4dbb-849e-64b197dd4018",
+        "library": "$interactions$",
+        "params": {}
+      },
+      {
+        "action": "execfunc",
+        "function": "onNameChange",
+        "id": "5c357395-c4b7-4cf1-894e-dc990a4cac9e",
+        "isCommented": false,
+        "library": "$interactions$",
+        "params": {
+          "input_value": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": " "
+          }
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Set the version to zero to signify that it is a draft",
+        "id": "31a524ff-5e8d-4c00-8917-dfbfaa44fbd0",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "91274f23-6952-4d2d-b2c3-3e7be8981c5a",
+        "isCommented": false,
+        "type": "fixed",
+        "value": {
+          "datatype": "numeric",
+          "dataval": 0
+        },
+        "variable": {
+          "datatype": "numeric",
+          "name": "version",
+          "objectType": "KRMReportingPeriodSet",
+          "scope": "field",
+          "set-field": "version",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "772d5aac-8c0f-4c9d-af9b-793da1e77dbf",
+        "isCommented": false,
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": "1"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "TypeDropdown",
+          "scope": "data",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "87fd8e02-14da-4c1b-9dea-2a94217bfafc",
+        "isCommented": false,
+        "type": "fixed",
+        "value": {
+          "datatype": "numeric",
+          "dataval": 1
+        },
+        "variable": {
+          "datatype": "numeric",
+          "name": "reportSetFlag",
+          "objectType": "KRMReportingPeriodSet",
+          "scope": "field",
+          "set-field": "reportSetFlag",
+          "target": "$self$"
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "onEditLoad": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_key"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "315484d7-d220-4efb-bed1-2147bde823e1",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getCurrentObjectType",
+          "library": "CirrusLibPageData",
+          "params": {},
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "6e902b2b-bc58-468f-a7ee-804b07e4ea9e",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "loadExistingObject",
+          "library": "CirrusLibCirrusKRM",
+          "params": {
+            "key": {
+              "datatype": "text",
+              "name": "input_key",
+              "scope": "local"
+            },
+            "type": {
+              "datatype": "text",
+              "name": "objectType",
+              "scope": "local"
+            }
+          },
+          "returnType": "All Data"
+        },
+        "variable": {
+          "datatype": "All Data",
+          "name": "currentReportingPeriodObject",
+          "scope": "global"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "setRequiredFields",
+        "id": "e609a46b-fae4-4353-b5a4-a733b983b320",
+        "library": "$interactions$",
+        "params": {}
+      },
+      {
+        "action": "execfunc",
+        "function": "setSpreadsheetData",
+        "id": "b863f88b-a62a-495d-ba6c-597a87b0bf1b",
+        "isCommented": false,
+        "library": "$interactions$",
+        "params": {}
+      },
+      {
+        "action": "execfunc",
+        "function": "onNameChange",
+        "id": "650b4320-1ff7-4328-a8f0-fa7541ec06f0",
+        "isCommented": false,
+        "library": "$interactions$",
+        "params": {
+          "input_value": {
+            "datatype": "text",
+            "name": "key",
+            "objectType": "KRMReportingPeriodSet",
+            "scope": "field",
+            "set-field": "key",
+            "target": "$self$"
+          }
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setReadOnly",
+        "id": "01e01c6f-5cc2-426a-90db-a39589ce51b7",
+        "isCommented": false,
+        "params": {
+          "readOnly": {
+            "datatype": "boolean",
+            "scope": "fixed",
+            "value": true
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "key"
+      }
+    ],
+    "sasProvided": true
+  },
+  "onNameChange": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_value"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "02a03a9c-404d-4bc8-9a8d-0ab168823a97",
+        "type": "calculated",
+        "value": {
+          "function": "getLocalisedObjectType",
+          "library": "$interactions$",
+          "params": {},
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "242e3c4c-38f0-488f-ab3a-0e878cb37598",
+        "type": "calculated",
+        "value": {
+          "function": "concat",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "objectType",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": ": "
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "name_str",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "7edb0eab-2f82-48bf-b722-283144b5cbd8",
+        "type": "calculated",
+        "value": {
+          "function": "concat",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "name_str",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "name": "input_value",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "name_readonly",
+          "scope": "data",
+          "target": "$self$"
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "onPeriodTypeChange": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_value"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "d4dde9a3-24d9-40ca-8fa7-3013ede293bc",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "setTypeGlobalVars",
+          "library": "$interactions$",
+          "params": {
+            "input_type": {
+              "datatype": "text",
+              "name": "input_value",
+              "scope": "local"
+            }
+          },
+          "returnType": "numeric"
+        },
+        "variable": {
+          "datatype": "numeric",
+          "name": "reportSetFlag",
+          "objectType": "KRMReportingPeriodSet",
+          "scope": "field",
+          "set-field": "reportSetFlag",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "a7f72405-f725-49d6-be8f-8fa007fb1fe1",
+        "includeElse": true,
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isDateBased",
+          "scope": "global"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setActiveLayoutName",
+        "id": "8c605e9f-e790-4ab4-96c1-01952cfbeb17",
+        "isCommented": false,
+        "params": {
+          "activeTab": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "dateBased"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "DatePeriodsContainer"
+      },
+      {
+        "action": "ifelse",
+        "id": "0bcbddd0-8602-4329-a6aa-2822446f157b",
+        "includeElse": true,
+        "isCommented": false,
+        "iselse": true,
+        "main": "a7f72405-f725-49d6-be8f-8fa007fb1fe1",
+        "test": {
+          "datatype": "boolean",
+          "name": "isDateBased",
+          "scope": "global"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "31d46803-0dc1-4a32-9c92-2d6bfe5a99ce",
+        "includeElse": true,
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isTermBased",
+          "scope": "global"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setActiveLayoutName",
+        "id": "0a21ab85-5f47-400b-b6b7-dfe321eefbb7",
+        "isCommented": false,
+        "params": {
+          "activeTab": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "termBased"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "DatePeriodsContainer"
+      },
+      {
+        "action": "ifelse",
+        "id": "e1dc06c5-badc-4158-8f58-b316d366ecad",
+        "includeElse": true,
+        "isCommented": false,
+        "iselse": true,
+        "main": "31d46803-0dc1-4a32-9c92-2d6bfe5a99ce",
+        "test": {
+          "datatype": "boolean",
+          "name": "isTermBased",
+          "scope": "global"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setActiveLayoutName",
+        "id": "8b0711c0-27ed-4032-8b3e-ccfc01d57360",
+        "isCommented": false,
+        "params": {
+          "activeTab": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "empty"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "DatePeriodsContainer"
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "5765a9f3-4b96-49f5-867a-0bc1c9276b5b",
+        "includeElse": true,
+        "isCommented": false,
+        "main": "31d46803-0dc1-4a32-9c92-2d6bfe5a99ce",
+        "test": {
+          "datatype": "boolean",
+          "name": "isTermBased",
+          "scope": "global"
+        }
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "8d7d560b-4cda-4f97-9c43-95de2aad6044",
+        "includeElse": true,
+        "isCommented": false,
+        "main": "a7f72405-f725-49d6-be8f-8fa007fb1fe1",
+        "test": {
+          "datatype": "boolean",
+          "name": "isDateBased",
+          "scope": "global"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "setPeriodArrays",
+        "id": "7e529fd0-ac5e-4adb-bc88-bd9e3226cf99",
+        "isCommented": false,
+        "library": "$interactions$",
+        "params": {}
+      }
+    ],
+    "sasProvided": true
+  },
+  "onSave": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "execfunc",
+        "function": "clearPopups",
+        "id": "3748a343-f37a-40cd-8e39-5984eaca4964",
+        "library": "CirrusLibPage",
+        "params": {}
+      },
+      {
+        "action": "execfunc",
+        "function": "showLoadingOverlay",
+        "id": "bf03eb4d-0d36-4ec7-bcc9-ec7aeafe44b6",
+        "library": "CirrusLibPage",
+        "params": {}
+      },
+      {
+        "action": "setvar",
+        "id": "3e1b06cf-f5b7-40f3-9404-1dba93451775",
+        "type": "calculated",
+        "value": {
+          "function": "getAllData",
+          "library": "CirrusLibPageData",
+          "params": {},
+          "returnType": "All Data"
+        },
+        "variable": {
+          "datatype": "All Data",
+          "name": "data",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "63b71551-5558-4cf5-ae49-9ba8b5cf3ccb",
+        "type": "calculated",
+        "value": {
+          "function": "eq",
+          "library": "CirrusLibMath",
+          "params": {
+            "number1": {
+              "datatype": "numeric",
+              "name": "version",
+              "objectType": "KRMReportingPeriodSet",
+              "scope": "field",
+              "set-field": "version",
+              "target": "$self$"
+            },
+            "number2": {
+              "datatype": "numeric",
+              "scope": "fixed",
+              "value": 0
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isDraft",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "79f7dfb0-cf27-4b24-82d0-31093327c6eb",
+        "type": "calculated",
+        "value": {
+          "function": "validateFields",
+          "library": "CirrusLibPageData",
+          "params": {},
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "areRequiredFieldsEmpty",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "77ee1938-8f93-4499-957a-ade0ab658d7f",
+        "includeElse": true,
+        "test": {
+          "datatype": "boolean",
+          "name": "areRequiredFieldsEmpty",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "79d211b4-4e5f-49e1-9a4d-66318f1b2619",
+        "includeElse": true,
+        "iselse": true,
+        "main": "77ee1938-8f93-4499-957a-ade0ab658d7f",
+        "test": {
+          "datatype": "boolean",
+          "name": "areRequiredFieldsEmpty",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "69520823-69f5-4aa7-bbf7-a54415a82bf7",
+        "includeElse": true,
+        "test": {
+          "datatype": "boolean",
+          "name": "isDraft",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Set the version to 1 so that we can create it",
+        "id": "cc20164e-c4fc-442a-a6e3-4855608e4e5f",
+        "isCommented": false
+      },
+      {
+        "action": "execfunc",
+        "function": "set",
+        "id": "fc6b21d7-6630-4da4-a072-76362b9b2916",
+        "isCommented": false,
+        "library": "CirrusLibObject",
+        "params": {
+          "name": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "version"
+          },
+          "object": {
+            "datatype": "All Data",
+            "name": "data",
+            "scope": "local"
+          },
+          "value": {
+            "scope": "fixed",
+            "value": 1
+          }
+        },
+        "returnType": "All Data"
+      },
+      {
+        "action": "setvar",
+        "id": "31858a68-b7d2-4b16-ac3b-c408564c5189",
+        "type": "calculated",
+        "value": {
+          "function": "createObject",
+          "library": "CirrusLibCirrusKRM",
+          "params": {
+            "data": {
+              "datatype": "All Data",
+              "name": "data",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "newKey",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "3eb9545e-80b9-44c8-99b1-6595575e1e50",
+        "type": "calculated",
+        "value": {
+          "function": "toString",
+          "library": "CirrusLibString",
+          "params": {
+            "value": {
+              "datatype": "text",
+              "name": "newKey",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "newKeyString",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "d2350e6b-2e7b-4257-9a2a-ebd2cdd9b5ad",
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": "false"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "falseString",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "9614733c-6357-4c6f-8d4f-f97a59224438",
+        "type": "calculated",
+        "value": {
+          "function": "strEquals",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "newKeyString",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "name": "falseString",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isKeyFalse",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "d33ea15a-326f-4796-9fe2-c248afa7146b",
+        "includeElse": true,
+        "test": {
+          "datatype": "boolean",
+          "name": "isKeyFalse",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "b58d36e7-1b45-4dfb-b211-dd5b9ee66c6a",
+        "includeElse": true,
+        "iselse": true,
+        "main": "d33ea15a-326f-4796-9fe2-c248afa7146b",
+        "test": {
+          "datatype": "boolean",
+          "name": "isKeyFalse",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "0fbbe199-f0da-4099-aca9-6f82731308ed",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "datatype": "text",
+          "function": "getEditLocation",
+          "library": "CirrusLibNav",
+          "params": {
+            "key": {
+              "datatype": "text",
+              "name": "key",
+              "objectType": "KRMReportingPeriodSet",
+              "scope": "field",
+              "set-field": "key",
+              "target": "$self$"
+            },
+            "objectType": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "KRMReportingPeriodSet"
+            },
+            "prefix": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "edit"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "location",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "a183a299-8718-456b-9ccf-3f7f487c0611",
+        "isCommented": false,
+        "type": "fixed",
+        "value": {
+          "datatype": "boolean",
+          "dataval": true
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "replaceInBrowser",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "navigate",
+        "id": "31b56e22-9610-45a8-88af-ea9b7c26b46c",
+        "isCommented": false,
+        "library": "CirrusLibNav",
+        "params": {
+          "location": {
+            "datatype": "text",
+            "name": "location",
+            "scope": "local"
+          },
+          "replace": {
+            "datatype": "boolean",
+            "name": "replaceInBrowser",
+            "scope": "local"
+          }
+        },
+        "returnType": "text"
+      },
+      {
+        "action": "execfunc",
+        "function": "showSuccess",
+        "id": "7eb755ea-5461-441b-8021-39f7e8b815fe",
+        "library": "CirrusLibPage",
+        "params": {}
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "d9bb82c9-de1a-49f9-896f-6084806515d0",
+        "includeElse": true,
+        "main": "d33ea15a-326f-4796-9fe2-c248afa7146b",
+        "test": {
+          "datatype": "boolean",
+          "name": "isKeyFalse",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "f0ac73ed-78d1-4e0f-9aa1-a35e066ea863",
+        "includeElse": true,
+        "iselse": true,
+        "main": "69520823-69f5-4aa7-bbf7-a54415a82bf7",
+        "test": {
+          "datatype": "boolean",
+          "name": "isDraft",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "fc5a36bd-28cc-44ec-a690-5bc29ac35276",
+        "type": "calculated",
+        "value": {
+          "function": "saveObject",
+          "library": "CirrusLibCirrusKRM",
+          "params": {
+            "data": {
+              "datatype": "All Data",
+              "name": "data",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "saveSuccessful",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "fc2dfb58-f836-45a8-a385-7fe3756de2d5",
+        "test": {
+          "datatype": "boolean",
+          "name": "saveSuccessful",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "834f1fa2-d2ad-4706-a0e3-a643bc64433f",
+        "type": "calculated",
+        "value": {
+          "function": "getCurrentObjectKey",
+          "library": "CirrusLibPageData",
+          "params": {},
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "instanceKey",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "onEditLoad",
+        "id": "939f3f0b-60b0-4cc3-b006-c5cb8c6cec85",
+        "library": "$interactions$",
+        "params": {
+          "input_key": {
+            "datatype": "text",
+            "name": "instanceKey",
+            "scope": "local"
+          }
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "showSuccess",
+        "id": "6d49619f-acaa-481d-8247-fc48a3f97e68",
+        "library": "CirrusLibPage",
+        "params": {}
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "0a91648d-8542-401f-8e28-4065ed9b1c1d",
+        "main": "fc2dfb58-f836-45a8-a385-7fe3756de2d5",
+        "test": {
+          "datatype": "boolean",
+          "name": "saveSuccessful",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "bfae34cb-ee92-4945-ae56-2432def6ab19",
+        "includeElse": true,
+        "main": "69520823-69f5-4aa7-bbf7-a54415a82bf7",
+        "test": {
+          "datatype": "boolean",
+          "name": "isDraft",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "6fa22f4c-0505-40bb-ba89-1deb1e105b22",
+        "includeElse": true,
+        "main": "77ee1938-8f93-4499-957a-ade0ab658d7f",
+        "test": {
+          "datatype": "boolean",
+          "name": "areRequiredFieldsEmpty",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "hideLoadingOverlay",
+        "id": "071e7faa-48e9-4f70-ab52-134c2960b037",
+        "library": "CirrusLibPage",
+        "params": {}
+      }
+    ],
+    "resolveEachStep": false,
+    "sasProvided": true
+  },
+  "onTabClose": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "d4bc8813-7b01-4a4a-aa39-9179a9f3f8b6",
+        "type": "calculated",
+        "value": {
+          "function": "getDiffJSONPatch",
+          "library": "CirrusLibPageData",
+          "params": {},
+          "returnType": "Patch array"
+        },
+        "variable": {
+          "datatype": "Patch array",
+          "name": "patch",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "7137fef9-ed0f-4eeb-bb91-312044fd126e",
+        "type": "calculated",
+        "value": {
+          "function": "isObjectPageDirty",
+          "library": "CirrusLibCirrusObject",
+          "params": {
+            "patch": {
+              "datatype": "Patch array",
+              "name": "patch",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isDirty",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "b4baa254-da5a-4791-85dd-4cf604d92946",
+        "includeElse": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isDirty",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "4cb612e0-2294-4e78-b25f-7afea93e4d5d",
+        "type": "calculated",
+        "value": {
+          "function": "promptForConfirmNavigation",
+          "library": "CirrusLibPage",
+          "params": {},
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "closeAnyway",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "returnvar",
+        "id": "d40aa399-590e-4b19-b8c5-0ea908c08bdf",
+        "variable": {
+          "datatype": "boolean",
+          "name": "closeAnyway",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "817bd86e-4653-4dbf-9408-3471d42e4f6e",
+        "includeElse": false,
+        "main": "b4baa254-da5a-4791-85dd-4cf604d92946",
+        "test": {
+          "datatype": "boolean",
+          "name": "isDirty",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "bc1b02e8-8f69-4079-b6f4-ec2b58cbf408",
+        "type": "calculated",
+        "value": {
+          "function": "not",
+          "library": "CirrusLibBoolean",
+          "params": {
+            "bool": {
+              "datatype": "boolean",
+              "name": "isDirty",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "canClose",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "returnvar",
+        "id": "91f8c96d-6a83-4f16-9083-517045695ad4",
+        "variable": {
+          "datatype": "boolean",
+          "name": "canClose",
+          "scope": "local"
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "setDefaultName": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_value"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "5f677a3d-8f13-4ecc-a4c7-b63e9a0e3ac8",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "toBoolean",
+          "library": "CirrusLibBoolean",
+          "params": {
+            "value": {
+              "datatype": "text",
+              "name": "name",
+              "objectType": "AttributionTemplate",
+              "scope": "field",
+              "set-field": "name",
+              "target": "$self$"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isNameSet",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "f03a1ee4-8ec2-48f0-b546-0752f274e9b8",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "datatype": "boolean",
+          "function": "not",
+          "library": "CirrusLibBoolean",
+          "params": {
+            "bool": {
+              "datatype": "boolean",
+              "name": "isNameSet",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isNameSet",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "383b924a-fb76-432a-886b-fb9481ef36b8",
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isNameSet",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "02a03a9c-404d-4bc8-9a8d-0ab168823a97",
+        "type": "calculated",
+        "value": {
+          "function": "getLocalisedObjectType",
+          "library": "$interactions$",
+          "params": {},
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "242e3c4c-38f0-488f-ab3a-0e878cb37598",
+        "type": "calculated",
+        "value": {
+          "function": "concat",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "objectType",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": ": "
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "name_str",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "7edb0eab-2f82-48bf-b722-283144b5cbd8",
+        "type": "calculated",
+        "value": {
+          "function": "concat",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "name_str",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "name": "input_value",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "name_readonly",
+          "scope": "data",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "629b1271-8809-4605-8391-162fcc618f6f",
+        "isCommented": false,
+        "type": "variable",
+        "value": {
+          "datatype": "text",
+          "name": "input_value",
+          "scope": "local"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "name",
+          "objectType": "AttributionTemplate",
+          "scope": "field",
+          "set-field": "name",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "d0e180fe-5e68-4d85-bd5a-0d7e59b4578c",
+        "isCommented": false,
+        "main": "383b924a-fb76-432a-886b-fb9481ef36b8",
+        "test": {
+          "datatype": "boolean",
+          "name": "isNameSet",
+          "scope": "local"
+        }
+      }
+    ],
+    "resolveEachStep": false,
+    "sasProvided": true
+  },
+  "setPeriodArrays": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "ifelse",
+        "id": "b89eeba5-b61a-4709-9a73-c485c8ffb453",
+        "includeElse": true,
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isDateBased",
+          "scope": "global"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "c46b4e44-e01f-4393-a1bc-11897779e97d",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "get",
+          "library": "CirrusLibObject",
+          "params": {
+            "name": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "rowState"
+            },
+            "object": {
+              "datatype": "object",
+              "name": "DateBasedSpreadsheet",
+              "scope": "data",
+              "target": "$self$"
+            }
+          },
+          "returnType": "\u003cany\u003e"
+        },
+        "variable": {
+          "datatype": "\u003cany\u003e",
+          "name": "dateRowData",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "c1c1221b-fbef-446e-a2a6-fa21793a3a7c",
+        "isCommented": false,
+        "type": "variable",
+        "value": {
+          "datatype": "\u003cany\u003e",
+          "name": "dateRowData",
+          "scope": "local"
+        },
+        "variable": {
+          "datatype": "\u003cany\u003e",
+          "name": "dateBasedReportingPeriods",
+          "objectType": "KRMReportingPeriodSet",
+          "scope": "field",
+          "set-field": "dateBasedReportingPeriods",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "db5c8c69-8b99-429e-b342-9ec3b9c95f18",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "createNewObjectArray",
+          "library": "CirrusLibArray",
+          "params": {},
+          "returnType": "object array"
+        },
+        "variable": {
+          "datatype": "object array",
+          "name": "termBasedReportingPeriods",
+          "objectType": "KRMReportingPeriodSet",
+          "scope": "field",
+          "set-field": "termBasedReportingPeriods",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "a2db5097-902f-4f2d-92a4-8947a6cd62df",
+        "includeElse": true,
+        "isCommented": false,
+        "iselse": true,
+        "main": "b89eeba5-b61a-4709-9a73-c485c8ffb453",
+        "test": {
+          "datatype": "boolean",
+          "name": "isDateBased",
+          "scope": "global"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "5ebe1a41-08e8-4eac-9682-d37c7cc0b9e1",
+        "includeElse": true,
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isTermBased",
+          "scope": "global"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "c650dad4-c204-4986-be52-e499451b64cc",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "get",
+          "library": "CirrusLibObject",
+          "params": {
+            "name": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "rowState"
+            },
+            "object": {
+              "datatype": "object",
+              "name": "TermBasedSpreadsheet",
+              "scope": "data",
+              "target": "$self$"
+            }
+          },
+          "returnType": "\u003cany\u003e"
+        },
+        "variable": {
+          "datatype": "\u003cany\u003e",
+          "name": "termRowData",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "5453dfee-1f3e-43a9-80f8-3f99491ef047",
+        "isCommented": false,
+        "type": "variable",
+        "value": {
+          "datatype": "\u003cany\u003e",
+          "name": "termRowData",
+          "scope": "local"
+        },
+        "variable": {
+          "datatype": "\u003cany\u003e",
+          "name": "termBasedReportingPeriods",
+          "objectType": "KRMReportingPeriodSet",
+          "scope": "field",
+          "set-field": "termBasedReportingPeriods",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "16b28a85-6b11-48cb-bb21-286101aa9aac",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "createNewObjectArray",
+          "library": "CirrusLibArray",
+          "params": {},
+          "returnType": "object array"
+        },
+        "variable": {
+          "datatype": "object array",
+          "name": "dateBasedReportingPeriods",
+          "objectType": "KRMReportingPeriodSet",
+          "scope": "field",
+          "set-field": "dateBasedReportingPeriods",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "ae3d4396-a5db-4154-bc71-ad49b2a15e67",
+        "includeElse": true,
+        "isCommented": false,
+        "iselse": true,
+        "main": "5ebe1a41-08e8-4eac-9682-d37c7cc0b9e1",
+        "test": {
+          "datatype": "boolean",
+          "name": "isTermBased",
+          "scope": "global"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "21b1d9d1-d663-4dfd-bcc8-4a1a6c0d6143",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "createNewObjectArray",
+          "library": "CirrusLibArray",
+          "params": {},
+          "returnType": "object array"
+        },
+        "variable": {
+          "datatype": "object array",
+          "name": "dateBasedReportingPeriods",
+          "objectType": "KRMReportingPeriodSet",
+          "scope": "field",
+          "set-field": "dateBasedReportingPeriods",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "80ab43c7-14d8-45fa-94cb-2eda8f100e5f",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "createNewObjectArray",
+          "library": "CirrusLibArray",
+          "params": {},
+          "returnType": "object array"
+        },
+        "variable": {
+          "datatype": "object array",
+          "name": "termBasedReportingPeriods",
+          "objectType": "KRMReportingPeriodSet",
+          "scope": "field",
+          "set-field": "termBasedReportingPeriods",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "c7f406b4-3e13-4afd-9b89-08f9b60f2c86",
+        "includeElse": true,
+        "isCommented": false,
+        "main": "5ebe1a41-08e8-4eac-9682-d37c7cc0b9e1",
+        "test": {
+          "datatype": "boolean",
+          "name": "isTermBased",
+          "scope": "global"
+        }
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "cd8a3c52-a15d-48f3-82ab-6d20374164ed",
+        "includeElse": true,
+        "isCommented": false,
+        "main": "b89eeba5-b61a-4709-9a73-c485c8ffb453",
+        "test": {
+          "datatype": "boolean",
+          "name": "isDateBased",
+          "scope": "global"
+        }
+      }
+    ],
+    "resolveEachStep": false,
+    "sasProvided": true
+  },
+  "setRequiredFields": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "setprop",
+        "function": "setRequired",
+        "id": "39fdb4f0-99b3-4e56-ae4e-7eda011756ec",
+        "isCommented": false,
+        "params": {
+          "required": {
+            "datatype": "boolean",
+            "scope": "fixed",
+            "value": true
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "key"
+      },
+      {
+        "action": "setprop",
+        "function": "setRequired",
+        "id": "065b39bb-4b5b-4407-8888-8626966d98af",
+        "isCommented": false,
+        "params": {
+          "required": {
+            "datatype": "boolean",
+            "scope": "fixed",
+            "value": true
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "description"
+      }
+    ],
+    "sasProvided": true
+  },
+  "setSpreadsheetData": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "093a6a72-3faa-4657-bafd-b3892430fc71",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "get",
+          "library": "CirrusLibObject",
+          "params": {
+            "name": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "dateBasedReportingPeriods"
+            },
+            "object": {
+              "datatype": "All Data",
+              "name": "currentReportingPeriodObject",
+              "scope": "global"
+            }
+          },
+          "returnType": "\u003cany\u003e"
+        },
+        "variable": {
+          "datatype": "\u003cany\u003e",
+          "name": "dateBasedReportingPeriods",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setSpreadsheetRowData",
+        "id": "e4882853-e340-4489-a828-b5fe084a4e57",
+        "isCommented": false,
+        "params": {
+          "spreadsheetRowData": {
+            "datatype": "\u003cany\u003e",
+            "name": "dateBasedReportingPeriods",
+            "scope": "local"
+          }
+        },
+        "widgetId": "DateBasedSpreadsheet"
+      },
+      {
+        "action": "setvar",
+        "id": "8ed0cd8f-38ec-47f4-b1e2-4bc7fa489667",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "get",
+          "library": "CirrusLibObject",
+          "params": {
+            "name": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "termBasedReportingPeriods"
+            },
+            "object": {
+              "datatype": "All Data",
+              "name": "currentReportingPeriodObject",
+              "scope": "global"
+            }
+          },
+          "returnType": "\u003cany\u003e"
+        },
+        "variable": {
+          "datatype": "object",
+          "name": "termBasedReportingPeriods",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setSpreadsheetRowData",
+        "id": "644e2eac-5f55-40f0-9b96-a855ba4c715a",
+        "isCommented": false,
+        "params": {
+          "spreadsheetRowData": {
+            "datatype": "object",
+            "name": "termBasedReportingPeriods",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "TermBasedSpreadsheet"
+      },
+      {
+        "action": "setvar",
+        "id": "d84f0d0d-8408-4687-927e-a25026f9859f",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "toString",
+          "library": "CirrusLibString",
+          "params": {
+            "value": {
+              "datatype": "numeric",
+              "name": "reportSetFlag",
+              "objectType": "KRMReportingPeriodSet",
+              "scope": "field",
+              "set-field": "reportSetFlag",
+              "target": "$self$"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "flagString",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "cc758728-5218-4b28-a5c2-97224c9c8e66",
+        "isCommented": false,
+        "type": "variable",
+        "value": {
+          "datatype": "text",
+          "name": "flagString",
+          "scope": "local"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "TypeDropdown",
+          "scope": "data",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "onPeriodTypeChange",
+        "id": "d5a20535-9b79-49f1-8893-4be60fd094d5",
+        "isCommented": false,
+        "library": "$interactions$",
+        "params": {
+          "input_value": {
+            "datatype": "text",
+            "name": "flagString",
+            "scope": "local"
+          }
+        }
+      }
+    ],
+    "resolveEachStep": false,
+    "sasProvided": true
+  },
+  "setTypeGlobalVars": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_type"
+      }
+    ],
+    "logic": [
+      {
+        "action": "addComment",
+        "commentStep": "Set the global flags for which period type it is (isDateBased, isTermBased)",
+        "id": "14590eb4-e9ed-401b-af93-7602fbe57631",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "comment": "Need to convert the string input value to an integer",
+        "id": "bbf461a0-8354-4509-a5db-d0d4cbac85eb",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "toNumber",
+          "library": "CirrusLibMath",
+          "params": {
+            "value": {
+              "datatype": "text",
+              "name": "input_type",
+              "scope": "local"
+            }
+          },
+          "returnType": "numeric"
+        },
+        "variable": {
+          "datatype": "numeric",
+          "name": "typeField",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "020a58e1-c966-4b19-b70e-5b8c535567d2",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "eq",
+          "library": "CirrusLibMath",
+          "params": {
+            "number1": {
+              "datatype": "numeric",
+              "name": "typeField",
+              "scope": "local"
+            },
+            "number2": {
+              "datatype": "numeric",
+              "scope": "fixed",
+              "value": 1
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isDateBased",
+          "scope": "global"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "e5e545f2-e4b0-4528-b544-739efc8dbc23",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "eq",
+          "library": "CirrusLibMath",
+          "params": {
+            "number1": {
+              "datatype": "numeric",
+              "name": "typeField",
+              "scope": "local"
+            },
+            "number2": {
+              "datatype": "numeric",
+              "scope": "fixed",
+              "value": 2
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isTermBased",
+          "scope": "global"
+        }
+      },
+      {
+        "action": "returnvar",
+        "id": "b2dee80b-80ec-4cee-94fc-cdb70de35767",
+        "isCommented": false,
+        "variable": {
+          "datatype": "numeric",
+          "name": "typeField",
+          "scope": "local"
+        }
+      }
+    ],
+    "resolveEachStep": false,
+    "sasProvided": true
+  }
+}

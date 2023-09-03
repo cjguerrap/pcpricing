@@ -1,0 +1,20 @@
+{
+  "KRMReportingPeriodSet.AttributionTemplate.schema.field.objectId.label": "기여도 템플릿 ID",
+  "KRMReportingPeriodSet.library.label.base.Accordion.attribution_template_details.details.title": "기여도 템플릿 상세 정보",
+  "KRMReportingPeriodSet.library.label.base.Button.save.label": "저장",
+  "KRMReportingPeriodSet.library.label.base.DropdownWidget.TypeDropdown.label": "리포팅 기간 유형",
+  "KRMReportingPeriodSet.library.label.base.DropdownWidget.TypeDropdown.option.1.label": "날짜 기반",
+  "KRMReportingPeriodSet.library.label.base.DropdownWidget.TypeDropdown.option.2.label": "기간 기반",
+  "KRMReportingPeriodSet.library.label.base.DropdownWidget.TypeDropdown.option.3.label": "IRRBB",
+  "KRMReportingPeriodSet.library.label.base.GenericSpreadsheetWidget.DateBasedSpreadsheet.label": "스프레드시트",
+  "KRMReportingPeriodSet.library.label.base.GenericSpreadsheetWidget.TermBasedSpreadsheet.label": "스프레드시트",
+  "KRMReportingPeriodSet.library.label.base.RadioButtonGroupWidget.reportTypeWidget.option.1.label": "날짜 기반",
+  "KRMReportingPeriodSet.library.label.base.RadioButtonGroupWidget.reportTypeWidget.option.2.label": "기간",
+  "KRMReportingPeriodSet.library.label.base.RadioButtonGroupWidget.reportTypeWidget.option.3.label": "IRRB",
+  "KRMReportingPeriodSet.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "KRMReportingPeriodSet.library.label.base.TabView.attribution_template_tabs.1.title": "문서",
+  "KRMReportingPeriodSet.library.label.base.TabView.attribution_template_tabs.2.title": "변경 히스토리",
+  "KRMReportingPeriodSet.library.label.base.TabView.attribution_template_tabs.tabDetails.title": "상세 정보",
+  "KRMReportingPeriodSet.library.label.base.TabView.main_tabs.tabDetails.title": "상세 정보",
+  "undefined": "탭"
+}

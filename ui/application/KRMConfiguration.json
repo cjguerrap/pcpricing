@@ -1,0 +1,105 @@
+{
+  "layouts": {
+    "TabView": {
+      "ReportingPeriodSets": {
+        "reporting_period_obj_manager": {
+          "h": 735,
+          "i": "reporting_period_obj_manager",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "base": {
+      "TabView": {
+        "h": 795,
+        "i": "TabView",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "onPageLoad": {
+        "name": "onPageLoad"
+      }
+    },
+    "events": {
+      "onAnyEvent": {},
+      "onTabClose": {}
+    },
+    "props": {
+      "description": "",
+      "icon": "base://METADATA_TABLE_VIEW",
+      "id": "KRMConfiguration",
+      "label": "KRM Configuration",
+      "tabLabel": "KRM Configuration"
+    }
+  },
+  "structure": {
+    "TabView": {
+      "ReportingPeriodSets": {
+        "reporting_period_obj_manager": {
+          "compName": "ObjectManager",
+          "containerId": "TabView",
+          "events": {
+            "onCreate": {
+              "name": "onCreate"
+            },
+            "onDelete": {
+              "name": "onDelete"
+            },
+            "onEdit": {
+              "name": "onEdit"
+            },
+            "onFetch": {
+              "name": "onFetch"
+            }
+          },
+          "id": "reporting_period_obj_manager",
+          "label": "appbuilder.toolboxitem.objectmanager.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "objectType": "KRMReportingPeriodSet"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        }
+      }
+    },
+    "base": {
+      "TabView": {
+        "compName": "TabView",
+        "containerId": "base",
+        "id": "TabView",
+        "label": "appbuilder.toolboxitem.tabview.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 0,
+          "childProps": {
+            "ReportingPeriodSets": {
+              "label": "Reporting Period Sets",
+              "name": "ReportingPeriodSets",
+              "position": 0
+            }
+          }
+        },
+        "sasProvided": true,
+        "versionAdded": "2023.02"
+      }
+    }
+  }
+}

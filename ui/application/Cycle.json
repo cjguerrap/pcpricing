@@ -1,0 +1,4679 @@
+{
+  "layouts": {
+    "Accordion": {
+      "classifications": {
+        "default": {
+          "h": 215,
+          "i": "default",
+          "minH": 186,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "DAM_reviews_container": {
+      "Analyze Duplicates No Dups": {
+        "DAM_analyzeDuplicatesText": {
+          "h": 48,
+          "i": "DAM_analyzeDuplicatesText",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 1
+        },
+        "ReadonlyFieldWidget_10": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_10",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 60
+        },
+        "ReadonlyFieldWidget_11": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_11",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "ReadonlyFieldWidget_12": {
+          "h": 24,
+          "i": "ReadonlyFieldWidget_12",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 0,
+          "y": 75
+        },
+        "ReadonlyFieldWidget_13": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_13",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "caslib_imported_dropdown": {
+          "h": 52,
+          "i": "caslib_imported_dropdown",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 65
+        },
+        "data_table_imported_dropdown": {
+          "h": 52,
+          "i": "data_table_imported_dropdown",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 127
+        },
+        "submit_for_data_import_audit": {
+          "h": 27,
+          "i": "submit_for_data_import_audit",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 660
+        }
+      },
+      "Create Model": {
+        "DAM_dataTableObject": {
+          "h": 52,
+          "i": "DAM_dataTableObject",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 185
+        },
+        "DAM_modelName": {
+          "h": 52,
+          "i": "DAM_modelName",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 61
+        },
+        "DAM_pipelineTemplateURI": {
+          "h": 52,
+          "i": "DAM_pipelineTemplateURI",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 123
+        },
+        "DAM_targetVariable": {
+          "h": 52,
+          "i": "DAM_targetVariable",
+          "minH": 52,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 247
+        },
+        "ReadonlyFieldWidget_10": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_10",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 60
+        },
+        "ReadonlyFieldWidget_11": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_11",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "ReadonlyFieldWidget_12": {
+          "h": 24,
+          "i": "ReadonlyFieldWidget_12",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 0,
+          "y": 75
+        },
+        "ReadonlyFieldWidget_13": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_13",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "RichText": {
+          "h": 48,
+          "i": "RichText",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 11,
+          "x": 0,
+          "y": 8
+        }
+      },
+      "DataImport Audit": {
+        "Button": {
+          "h": 26,
+          "i": "Button",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 605
+        },
+        "ReadonlyFieldWidget_10": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_10",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 60
+        },
+        "ReadonlyFieldWidget_11": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_11",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "ReadonlyFieldWidget_12": {
+          "h": 24,
+          "i": "ReadonlyFieldWidget_12",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 0,
+          "y": 75
+        },
+        "ReadonlyFieldWidget_13": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_13",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "RichText_6": {
+          "h": 54,
+          "i": "RichText_6",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 9,
+          "x": 0,
+          "y": 6
+        },
+        "casServerName": {
+          "h": 50,
+          "i": "casServerName",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 72
+        },
+        "caslibName": {
+          "h": 50,
+          "i": "caslibName",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 3,
+          "y": 72
+        },
+        "caslib_imported_dropdown": {
+          "h": 52,
+          "i": "caslib_imported_dropdown",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 65
+        },
+        "dataExplorerURL": {
+          "h": 54,
+          "i": "dataExplorerURL",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 72
+        },
+        "dataImportDualSelector": {
+          "h": 450,
+          "i": "dataImportDualSelector",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 149
+        },
+        "data_table_imported_dropdown": {
+          "h": 52,
+          "i": "data_table_imported_dropdown",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 127
+        },
+        "submit_for_data_import_audit": {
+          "h": 27,
+          "i": "submit_for_data_import_audit",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 660
+        }
+      },
+      "Decision Audit": {
+        "ReadonlyFieldWidget_10": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_10",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 60
+        },
+        "ReadonlyFieldWidget_11": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_11",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "ReadonlyFieldWidget_12": {
+          "h": 24,
+          "i": "ReadonlyFieldWidget_12",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 0,
+          "y": 75
+        },
+        "ReadonlyFieldWidget_13": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_13",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "RichText_4": {
+          "h": 48,
+          "i": "RichText_4",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 7
+        },
+        "caslib_imported_dropdown": {
+          "h": 52,
+          "i": "caslib_imported_dropdown",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 65
+        },
+        "data_table_imported_dropdown": {
+          "h": 52,
+          "i": "data_table_imported_dropdown",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 127
+        },
+        "decision_dropdown": {
+          "h": 52,
+          "i": "decision_dropdown",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 60
+        },
+        "submit_decision_for_audit": {
+          "h": 26,
+          "i": "submit_decision_for_audit",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 127
+        },
+        "submit_for_data_import_audit": {
+          "h": 27,
+          "i": "submit_for_data_import_audit",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 660
+        }
+      },
+      "Link to Explore VA Report": {
+        "ReadonlyFieldWidget_10": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_10",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 60
+        },
+        "ReadonlyFieldWidget_11": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_11",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "ReadonlyFieldWidget_12": {
+          "h": 24,
+          "i": "ReadonlyFieldWidget_12",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 0,
+          "y": 75
+        },
+        "ReadonlyFieldWidget_13": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_13",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "caslib_imported_dropdown": {
+          "h": 52,
+          "i": "caslib_imported_dropdown",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 65
+        },
+        "data_table_imported_dropdown": {
+          "h": 52,
+          "i": "data_table_imported_dropdown",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 127
+        },
+        "reviewVAReport": {
+          "h": 54,
+          "i": "reviewVAReport",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 0
+        },
+        "submit_for_data_import_audit": {
+          "h": 27,
+          "i": "submit_for_data_import_audit",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 660
+        }
+      },
+      "Link to Model": {
+        "DAM_registeredModelDropdown": {
+          "h": 52,
+          "i": "DAM_registeredModelDropdown",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 132
+        },
+        "ReadonlyFieldWidget_10": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_10",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 60
+        },
+        "ReadonlyFieldWidget_11": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_11",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "ReadonlyFieldWidget_12": {
+          "h": 24,
+          "i": "ReadonlyFieldWidget_12",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 0,
+          "y": 75
+        },
+        "ReadonlyFieldWidget_13": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_13",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "RichText_1": {
+          "h": 50,
+          "i": "RichText_1",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 72
+        },
+        "caslibNameWidgetAudit2": {
+          "h": 25,
+          "i": "caslibNameWidgetAudit2",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 391
+        },
+        "caslib_imported_dropdown": {
+          "h": 52,
+          "i": "caslib_imported_dropdown",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 65
+        },
+        "createdByWidgetAudit": {
+          "h": 25,
+          "i": "createdByWidgetAudit",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 341
+        },
+        "data_table_imported_dropdown": {
+          "h": 52,
+          "i": "data_table_imported_dropdown",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 127
+        },
+        "dateCreatedWidgetAudit": {
+          "h": 25,
+          "i": "dateCreatedWidgetAudit",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 291
+        },
+        "dateModifiedWidgetAudit": {
+          "h": 25,
+          "i": "dateModifiedWidgetAudit",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 316
+        },
+        "inputTableWidgetAudit2": {
+          "h": 25,
+          "i": "inputTableWidgetAudit2",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 416
+        },
+        "modelRepoDropdownAudit": {
+          "h": 52,
+          "i": "modelRepoDropdownAudit",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 194
+        },
+        "model_link_widget": {
+          "h": 55,
+          "i": "model_link_widget",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "modifiedByWidgetAudit": {
+          "h": 25,
+          "i": "modifiedByWidgetAudit",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 366
+        },
+        "projectNameWidgetAudit": {
+          "h": 25,
+          "i": "projectNameWidgetAudit",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 265
+        },
+        "submit_for_data_import_audit": {
+          "h": 27,
+          "i": "submit_for_data_import_audit",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 660
+        },
+        "submit_model_for_audit": {
+          "h": 27,
+          "i": "submit_model_for_audit",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 485
+        },
+        "targetVarWidgetAudit2": {
+          "h": 25,
+          "i": "targetVarWidgetAudit2",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 441
+        }
+      },
+      "Link to Opt Model": {
+        "DAM_contraintsTableName": {
+          "h": 52,
+          "i": "DAM_contraintsTableName",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 3,
+          "y": 260
+        },
+        "DAM_objectiveFunctionTableName": {
+          "h": 52,
+          "i": "DAM_objectiveFunctionTableName",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 260
+        },
+        "DAM_optTableName": {
+          "h": 52,
+          "i": "DAM_optTableName",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 190
+        },
+        "DAM_tableRegistered": {
+          "h": 56,
+          "i": "DAM_tableRegistered",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 133
+        },
+        "ReadonlyFieldWidget_10": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_10",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 60
+        },
+        "ReadonlyFieldWidget_11": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_11",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "ReadonlyFieldWidget_12": {
+          "h": 24,
+          "i": "ReadonlyFieldWidget_12",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 0,
+          "y": 75
+        },
+        "ReadonlyFieldWidget_13": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_13",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "RichText_8": {
+          "h": 48,
+          "i": "RichText_8",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 85
+        },
+        "caslib_imported_dropdown": {
+          "h": 52,
+          "i": "caslib_imported_dropdown",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 65
+        },
+        "data_table_imported_dropdown": {
+          "h": 52,
+          "i": "data_table_imported_dropdown",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 127
+        },
+        "linkToOptModelWidget": {
+          "h": 54,
+          "i": "linkToOptModelWidget",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 0
+        },
+        "submit_for_data_import_audit": {
+          "h": 27,
+          "i": "submit_for_data_import_audit",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 660
+        }
+      },
+      "Link to Perform Backtesting VA Reports": {
+        "ReadonlyFieldWidget_10": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_10",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 60
+        },
+        "ReadonlyFieldWidget_11": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_11",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "ReadonlyFieldWidget_12": {
+          "h": 24,
+          "i": "ReadonlyFieldWidget_12",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 0,
+          "y": 75
+        },
+        "ReadonlyFieldWidget_13": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_13",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "caslib_imported_dropdown": {
+          "h": 52,
+          "i": "caslib_imported_dropdown",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 65
+        },
+        "data_table_imported_dropdown": {
+          "h": 52,
+          "i": "data_table_imported_dropdown",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 127
+        },
+        "submit_for_data_import_audit": {
+          "h": 27,
+          "i": "submit_for_data_import_audit",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 660
+        },
+        "vaBacktestingGroupableContainer": {
+          "h": 200,
+          "i": "vaBacktestingGroupableContainer",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "Link to Transition Created VA Report": {
+        "ReadonlyFieldWidget_10": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_10",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 60
+        },
+        "ReadonlyFieldWidget_11": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_11",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "ReadonlyFieldWidget_12": {
+          "h": 24,
+          "i": "ReadonlyFieldWidget_12",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 0,
+          "y": 75
+        },
+        "ReadonlyFieldWidget_13": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_13",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "caslib_imported_dropdown": {
+          "h": 52,
+          "i": "caslib_imported_dropdown",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 65
+        },
+        "data_table_imported_dropdown": {
+          "h": 52,
+          "i": "data_table_imported_dropdown",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 127
+        },
+        "linkToTransitionCreatedVAReport": {
+          "h": 54,
+          "i": "linkToTransitionCreatedVAReport",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 0
+        },
+        "linksToImpactAnalysisReports": {
+          "h": 283,
+          "i": "linksToImpactAnalysisReports",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 65
+        },
+        "submit_for_data_import_audit": {
+          "h": 27,
+          "i": "submit_for_data_import_audit",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 660
+        }
+      },
+      "Model Audit": {
+        "ReadonlyFieldWidget_10": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_10",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 60
+        },
+        "ReadonlyFieldWidget_11": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_11",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "ReadonlyFieldWidget_12": {
+          "h": 24,
+          "i": "ReadonlyFieldWidget_12",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 0,
+          "y": 75
+        },
+        "ReadonlyFieldWidget_13": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_13",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "RichText_3": {
+          "h": 51,
+          "i": "RichText_3",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 2
+        },
+        "RichText_7": {
+          "h": 48,
+          "i": "RichText_7",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 11,
+          "x": 0,
+          "y": 60
+        },
+        "caslibNameWidgetAudit": {
+          "h": 25,
+          "i": "caslibNameWidgetAudit",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 10,
+          "x": 0,
+          "y": 176
+        },
+        "caslib_imported_dropdown": {
+          "h": 52,
+          "i": "caslib_imported_dropdown",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 65
+        },
+        "data_table_imported_dropdown": {
+          "h": 52,
+          "i": "data_table_imported_dropdown",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 127
+        },
+        "inputTableNameWidgetAudit": {
+          "h": 25,
+          "i": "inputTableNameWidgetAudit",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 10,
+          "x": 0,
+          "y": 201
+        },
+        "modelNameWidget": {
+          "h": 25,
+          "i": "modelNameWidget",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 10,
+          "x": 0,
+          "y": 126
+        },
+        "submit_for_data_import_audit": {
+          "h": 27,
+          "i": "submit_for_data_import_audit",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 660
+        },
+        "submit_model_project_for_audit": {
+          "h": 26,
+          "i": "submit_model_project_for_audit",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 279
+        },
+        "targetVarWidgetAudit": {
+          "h": 25,
+          "i": "targetVarWidgetAudit",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 10,
+          "x": 0,
+          "y": 226
+        },
+        "templateNameWidgetAudit": {
+          "h": 25,
+          "i": "templateNameWidgetAudit",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 10,
+          "x": 0,
+          "y": 151
+        }
+      },
+      "VAReport Audit": {
+        "ReadonlyFieldWidget_10": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_10",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 60
+        },
+        "ReadonlyFieldWidget_11": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_11",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "ReadonlyFieldWidget_12": {
+          "h": 24,
+          "i": "ReadonlyFieldWidget_12",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 0,
+          "y": 75
+        },
+        "ReadonlyFieldWidget_13": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_13",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "RichText_5": {
+          "h": 48,
+          "i": "RichText_5",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 145
+        },
+        "Submit_VAReport_to_Audit_Button": {
+          "h": 29,
+          "i": "Submit_VAReport_to_Audit_Button",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 279
+        },
+        "VAReport_Create_DropdownWidget": {
+          "h": 52,
+          "i": "VAReport_Create_DropdownWidget",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 211
+        },
+        "caslib_imported_dropdown": {
+          "h": 52,
+          "i": "caslib_imported_dropdown",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 65
+        },
+        "data_table_imported_dropdown": {
+          "h": 52,
+          "i": "data_table_imported_dropdown",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 127
+        },
+        "submit_for_data_import_audit": {
+          "h": 27,
+          "i": "submit_for_data_import_audit",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 660
+        },
+        "vaExploreDataLink": {
+          "h": 61,
+          "i": "vaExploreDataLink",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 0,
+          "y": 0
+        },
+        "vaExploreDataLinkOD": {
+          "h": 54,
+          "i": "vaExploreDataLinkOD",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 0,
+          "y": 62
+        }
+      },
+      "default": {
+        "ReadonlyFieldWidget_10": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_10",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 60
+        },
+        "ReadonlyFieldWidget_11": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_11",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "ReadonlyFieldWidget_12": {
+          "h": 24,
+          "i": "ReadonlyFieldWidget_12",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 0,
+          "y": 75
+        },
+        "ReadonlyFieldWidget_13": {
+          "h": 25,
+          "i": "ReadonlyFieldWidget_13",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "caslib_imported_dropdown": {
+          "h": 52,
+          "i": "caslib_imported_dropdown",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 65
+        },
+        "data_table_imported_dropdown": {
+          "h": 52,
+          "i": "data_table_imported_dropdown",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 127
+        },
+        "submit_for_data_import_audit": {
+          "h": 27,
+          "i": "submit_for_data_import_audit",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 660
+        }
+      }
+    },
+    "FolderGroupableContainer": {
+      "atStartWorkflow": {
+        "casServerDropdown": {
+          "h": 60,
+          "i": "casServerDropdown",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 70
+        },
+        "caslibDropdownStartPage": {
+          "h": 60,
+          "i": "caslibDropdownStartPage",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 140
+        },
+        "contentFolderDropdown": {
+          "h": 60,
+          "i": "contentFolderDropdown",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "default": {
+        "DAM_casServer": {
+          "h": 55,
+          "i": "DAM_casServer",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 55
+        },
+        "DAM_caslibName": {
+          "h": 55,
+          "i": "DAM_caslibName",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 110
+        },
+        "DAM_contentFolderName": {
+          "h": 55,
+          "i": "DAM_contentFolderName",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "base": {
+      "Accordion": {
+        "h": 246,
+        "i": "Accordion",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 916
+      },
+      "WorkflowDiagram": {
+        "h": 125,
+        "i": "WorkflowDiagram",
+        "minH": 100,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 106
+      },
+      "main_tabs": {
+        "h": 626,
+        "i": "main_tabs",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 234
+      },
+      "name_readonly": {
+        "h": 30,
+        "i": "name_readonly",
+        "minH": 24,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 0,
+        "y": 0
+      },
+      "parallel_task_container": {
+        "h": 50,
+        "i": "parallel_task_container",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 8,
+        "x": 4,
+        "y": 55
+      },
+      "statusCd": {
+        "h": 52,
+        "i": "statusCd",
+        "minH": 24,
+        "minW": 3,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 0,
+        "y": 35
+      },
+      "workflow_container": {
+        "h": 50,
+        "i": "workflow_container",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 8,
+        "x": 4,
+        "y": 4
+      }
+    },
+    "instance_details": {
+      "details": {}
+    },
+    "main_tabs": {
+      "tabAnalysisRuns": {
+        "AnalysisRun": {
+          "h": 452,
+          "i": "AnalysisRun",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 3
+        },
+        "linked_AnalysisRuns": {
+          "h": 320,
+          "i": "linked_AnalysisRuns",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "tabAudit": {
+        "auditTrailLogs": {
+          "h": 510,
+          "i": "auditTrailLogs",
+          "minH": 300,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 18
+        },
+        "audit_log_links_list_widget": {
+          "h": 357,
+          "i": "audit_log_links_list_widget",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 0,
+          "y": 0
+        },
+        "linked_AnalysisRuns": {
+          "h": 320,
+          "i": "linked_AnalysisRuns",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "tabChangeHistory": {
+        "ChangeHistory": {
+          "h": 236,
+          "i": "ChangeHistory",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        },
+        "linked_AnalysisRuns": {
+          "h": 320,
+          "i": "linked_AnalysisRuns",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "tabDebug": {
+        "LinkWorkflowDebugging": {
+          "h": 55,
+          "i": "LinkWorkflowDebugging",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 12
+        },
+        "linked_AnalysisRuns": {
+          "h": 320,
+          "i": "linked_AnalysisRuns",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "tabDetails": {
+        "CodeLibrary": {
+          "h": 50,
+          "i": "CodeLibrary",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 567
+        },
+        "FolderGroupableContainer": {
+          "h": 185,
+          "i": "FolderGroupableContainer",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 292
+        },
+        "audit_log_links_list_widget": {
+          "h": 357,
+          "i": "audit_log_links_list_widget",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 0,
+          "y": 0
+        },
+        "core_dependentLibrary": {
+          "h": 60,
+          "i": "core_dependentLibrary",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 627
+        },
+        "description": {
+          "h": 70,
+          "i": "description",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 110
+        },
+        "initiatorUserNmReadOnly": {
+          "h": 40,
+          "i": "initiatorUserNmReadOnly",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 190
+        },
+        "linkedConfigurationSets": {
+          "h": 59,
+          "i": "linkedConfigurationSets",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 146
+        },
+        "linked_AnalysisRuns": {
+          "h": 320,
+          "i": "linked_AnalysisRuns",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "h": 50,
+          "i": "name",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 55
+        },
+        "objectId": {
+          "h": 50,
+          "i": "objectId",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 0
+        },
+        "productSet": {
+          "h": 52,
+          "i": "productSet",
+          "minH": 52,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 6,
+          "y": 74
+        },
+        "reportingCurrency": {
+          "h": 52,
+          "i": "reportingCurrency",
+          "minH": 52,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 6,
+          "y": 11
+        },
+        "runTypeCd": {
+          "h": 52,
+          "i": "runTypeCd",
+          "minH": 52,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 230
+        },
+        "workflowTemplate": {
+          "h": 70,
+          "i": "workflowTemplate",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 487
+        }
+      },
+      "tabDocumentation": {
+        "additional_comments": {
+          "h": 550,
+          "i": "additional_comments",
+          "minH": 236,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 4,
+          "y": 0
+        },
+        "documentation_attachments": {
+          "h": 286,
+          "i": "documentation_attachments",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 0
+        },
+        "documentation_links": {
+          "h": 241,
+          "i": "documentation_links",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 287
+        },
+        "linked_AnalysisRuns": {
+          "h": 320,
+          "i": "linked_AnalysisRuns",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "tabExecutionLogs": {
+        "audit_log_links_list_widget": {
+          "h": 357,
+          "i": "audit_log_links_list_widget",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 0,
+          "y": 0
+        },
+        "executionLog": {
+          "h": 510,
+          "i": "executionLog",
+          "minH": 300,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 18
+        },
+        "linked_AnalysisRuns": {
+          "h": 320,
+          "i": "linked_AnalysisRuns",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "tabParameters": {
+        "ParametersPage": {
+          "h": 148,
+          "i": "ParametersPage",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        },
+        "linked_AnalysisRuns": {
+          "h": 320,
+          "i": "linked_AnalysisRuns",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "tabReviews": {
+        "DAM_reviews_container": {
+          "h": 520,
+          "i": "DAM_reviews_container",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 523
+        },
+        "LinksListWidget": {
+          "h": 523,
+          "i": "LinksListWidget",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 0
+        },
+        "audit_log_links_list_widget": {
+          "h": 357,
+          "i": "audit_log_links_list_widget",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 0,
+          "y": 0
+        },
+        "linked_AnalysisRuns": {
+          "h": 320,
+          "i": "linked_AnalysisRuns",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "parallel_task_container": {
+      "PARALLEL": {
+        "parallel_task": {
+          "h": 24,
+          "i": "parallel_task",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 6,
+          "y": 6
+        },
+        "parallel_task_claimed_by": {
+          "h": 24,
+          "i": "parallel_task_claimed_by",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 9,
+          "y": 5
+        }
+      },
+      "default": {}
+    },
+    "vaBacktestingGroupableContainer": {
+      "AUTO_INSURANCE_PRICING_WORKFLOW": {
+        "InputTextWidget": {
+          "h": 50,
+          "i": "InputTextWidget",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 0
+        },
+        "bktVALink": {
+          "h": 54,
+          "i": "bktVALink",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 50
+        },
+        "bktVALink_1": {
+          "h": 54,
+          "i": "bktVALink_1",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 104
+        }
+      },
+      "AUTO_INS_PRICING_DETL_FREQSEV_WORKFLOW": {
+        "InputTextWidget_1": {
+          "h": 54,
+          "i": "InputTextWidget_1",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 0
+        },
+        "bktFreqSevVALink": {
+          "h": 54,
+          "i": "bktFreqSevVALink",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 57
+        },
+        "bktFreqSevVALink_1": {
+          "h": 54,
+          "i": "bktFreqSevVALink_1",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 111
+        }
+      },
+      "AUTO_INS_PRICING_DETL_PUREPREM_WORKFLOW": {
+        "InputTextWidget_2": {
+          "h": 50,
+          "i": "InputTextWidget_2",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 0,
+          "y": 0
+        },
+        "bktPPVALink": {
+          "h": 54,
+          "i": "bktPPVALink",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 52
+        }
+      },
+      "default": {}
+    },
+    "workflow_container": {
+      "CLAIMED_BY_ME": {
+        "active_task_claimed": {
+          "h": 24,
+          "i": "active_task_claimed",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 0
+        },
+        "save_claimed_by_me": {
+          "h": 26,
+          "i": "save_claimed_by_me",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        },
+        "unclaim_task": {
+          "h": 26,
+          "i": "unclaim_task",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 4,
+          "y": 0
+        },
+        "workflow_transitions": {
+          "h": 26,
+          "i": "workflow_transitions",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 6,
+          "y": 0
+        }
+      },
+      "CLAIMED_BY_OTHER": {
+        "active_task_other_user": {
+          "h": 24,
+          "i": "active_task_other_user",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 0
+        },
+        "claimed_by_other_user": {
+          "h": 26,
+          "i": "claimed_by_other_user",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 5,
+          "y": 0
+        },
+        "save_claimed_by_other": {
+          "h": 26,
+          "i": "save_claimed_by_other",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        }
+      },
+      "COMPLETED": {
+        "workflow_complete_msg": {
+          "h": 26,
+          "i": "workflow_complete_msg",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 6,
+          "y": 0
+        }
+      },
+      "DRAFT": {
+        "save_draft": {
+          "h": 26,
+          "i": "save_draft",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        },
+        "start_workflow_draft": {
+          "h": 26,
+          "i": "start_workflow_draft",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 7,
+          "y": 0
+        }
+      },
+      "IN_PROGRESS": {
+        "execution_in_progress_msg": {
+          "h": 27,
+          "i": "execution_in_progress_msg",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 5,
+          "y": 0
+        }
+      },
+      "NOT_STARTED": {
+        "save_not_started": {
+          "h": 26,
+          "i": "save_not_started",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        },
+        "start_workflow": {
+          "h": 26,
+          "i": "start_workflow",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 6,
+          "y": 0
+        }
+      },
+      "NO_TASKS": {
+        "no_tasks_msg": {
+          "h": 26,
+          "i": "no_tasks_msg",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 2,
+          "y": 0
+        },
+        "save_not_participant": {
+          "h": 26,
+          "i": "save_not_participant",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        }
+      },
+      "UNCLAIMED": {
+        "active_task_label_unclaimed": {
+          "h": 27,
+          "i": "active_task_label_unclaimed",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 1,
+          "y": 0
+        },
+        "claim_task": {
+          "h": 26,
+          "i": "claim_task",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 7,
+          "y": 0
+        },
+        "save_unclaimed": {
+          "h": 26,
+          "i": "save_unclaimed",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 9,
+          "y": 0
+        },
+        "unclaimed_task_dropdown": {
+          "h": 52,
+          "i": "unclaimed_task_dropdown",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 3,
+          "y": 0
+        }
+      },
+      "default": {}
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "copy": {
+        "name": "DAM_onCopyLoad_clone"
+      },
+      "draft": {
+        "name": "DAM_onDraftLoad_clone"
+      },
+      "edit": {
+        "name": "DAM_onEditLoad_clone"
+      }
+    },
+    "events": {
+      "onAnyEvent": {
+        "name": "DAM_onAnyEvent_clone"
+      },
+      "onTabClose": {
+        "name": "onTabClose"
+      }
+    },
+    "props": {
+      "description": "",
+      "icon": "base://TASK",
+      "id": "Cycle",
+      "label": "Cycle",
+      "tabLabel": ""
+    }
+  },
+  "structure": {
+    "Accordion": {
+      "classifications": {
+        "default": {
+          "compName": "CirrusObjectsClassification",
+          "containerId": "base",
+          "fieldName": "default",
+          "id": "default",
+          "libName": "base",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        }
+      }
+    },
+    "DAM_reviews_container": {
+      "Analyze Duplicates No Dups": {
+        "DAM_analyzeDuplicatesText": {
+          "compName": "RichText",
+          "containerId": "DAM_reviews_container",
+          "id": "DAM_analyzeDuplicatesText",
+          "label": "appbuilder.toolboxitem.richtext.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "value": "\u003cp\u003eNo duplicates were found.\u003c/p\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.07"
+        }
+      },
+      "Create Model": {
+        "DAM_dataTableObject": {
+          "compName": "DataTableSelector",
+          "containerId": "DAM_reviews_container",
+          "events": {
+            "onChange": {
+              "name": "DAM_setDataTargetNames"
+            }
+          },
+          "fieldName": "DAM_dataTableObject",
+          "id": "DAM_dataTableObject",
+          "label": "appbuilder.toolboxitem.DataTableSelector.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "casLibLabel": "Caslib name:",
+            "colon": false,
+            "dataSourceLabel": "Data source:",
+            "dataTableHelp": "Name of the data table to use with the model.",
+            "dataTableLabel": "Data table name:"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.01"
+        },
+        "DAM_modelName": {
+          "compName": "InputText",
+          "containerId": "DAM_reviews_container",
+          "fieldName": "DAM_modelName",
+          "id": "DAM_modelName",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.01"
+        },
+        "DAM_pipelineTemplateURI": {
+          "compName": "ModelStudioPipelineTemplateSelector",
+          "containerId": "DAM_reviews_container",
+          "fieldName": "DAM_pipelineTemplateURI",
+          "id": "DAM_pipelineTemplateURI",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "DAM_targetVariable": {
+          "compName": "Dropdown",
+          "containerId": "DAM_reviews_container",
+          "fieldName": "DAM_targetVariable",
+          "id": "DAM_targetVariable",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "enableClear": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.01"
+        },
+        "RichText": {
+          "compName": "RichText",
+          "containerId": "DAM_reviews_container",
+          "id": "RichText",
+          "label": "appbuilder.toolboxitem.richtext.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "value": "\u003ch2\u003e\u003cstrong\u003eCreate Model Project\u003c/strong\u003e\u003c/h2\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        }
+      },
+      "DataImport Audit": {
+        "Button": {
+          "compName": "Button",
+          "containerId": "DAM_reviews_container",
+          "events": {
+            "click": {
+              "name": "DAM_refreshDataImportDualSelector"
+            }
+          },
+          "id": "Button",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "iconOnly": false,
+            "iconSelected": "base://REFRESH",
+            "secondary": true,
+            "shrink": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.08"
+        },
+        "ReadonlyFieldWidget_13": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "DAM_reviews_container",
+          "id": "ReadonlyFieldWidget_13",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionDeprecated": "2023.04"
+        },
+        "RichText_6": {
+          "compName": "RichText",
+          "containerId": "DAM_reviews_container",
+          "id": "RichText_6",
+          "label": "appbuilder.toolboxitem.richtext.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "value": "\u003ch2\u003e\u003cstrong\u003eImport the analytics base tables\u003c/strong\u003e\u003c/h2\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        },
+        "casServerName": {
+          "compName": "InputTextWidget",
+          "containerId": "DAM_reviews_container",
+          "id": "casServerName",
+          "label": "appbuilder.toolboxitem.inputtext.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.08"
+        },
+        "caslibName": {
+          "compName": "InputTextWidget",
+          "containerId": "DAM_reviews_container",
+          "id": "caslibName",
+          "label": "appbuilder.toolboxitem.inputtext.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.08"
+        },
+        "caslib_imported_dropdown": {
+          "compName": "DropdownWidget",
+          "containerId": "DAM_reviews_container",
+          "events": {},
+          "id": "caslib_imported_dropdown",
+          "label": "appbuilder.toolboxitem.dropdown.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "enableClear": true
+          },
+          "sasProvided": true,
+          "versionDeprecated": "2023.08"
+        },
+        "dataExplorerURL": {
+          "compName": "LinkWidget",
+          "containerId": "DAM_reviews_container",
+          "id": "dataExplorerURL",
+          "label": "appbuilder.toolboxitem.link.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "boldValue": false,
+            "colon": false,
+            "linkText": " SAS® Data Explorer",
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.08"
+        },
+        "dataImportDualSelector": {
+          "compName": "DualSelector",
+          "containerId": "DAM_reviews_container",
+          "id": "dataImportDualSelector",
+          "label": "appbuilder.toolboxitem.dualSelector.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "colon": true,
+            "options": []
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.08"
+        },
+        "data_table_imported_dropdown": {
+          "compName": "DropdownWidget",
+          "containerId": "DAM_reviews_container",
+          "events": {},
+          "id": "data_table_imported_dropdown",
+          "label": "appbuilder.toolboxitem.dropdown.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "displayAsText": false,
+            "enableClear": true
+          },
+          "sasProvided": true,
+          "versionDeprecated": "2023.08"
+        },
+        "submit_for_data_import_audit": {
+          "compName": "Button",
+          "containerId": "DAM_reviews_container",
+          "events": {
+            "click": {
+              "name": "DAM_createDataImportAuditLogFile"
+            }
+          },
+          "id": "submit_for_data_import_audit",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "secondary": false,
+            "shrink": false
+          },
+          "sasProvided": true,
+          "versionDeprecated": "2023.08"
+        }
+      },
+      "Decision Audit": {
+        "ReadonlyFieldWidget_11": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "DAM_reviews_container",
+          "id": "ReadonlyFieldWidget_11",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionDeprecated": "2023.04"
+        },
+        "RichText_4": {
+          "compName": "RichText",
+          "containerId": "DAM_reviews_container",
+          "id": "RichText_4",
+          "label": "appbuilder.toolboxitem.richtext.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "value": "\u003ch2\u003e\u003cstrong\u003eAudit Trail Review\u003c/strong\u003e\u003c/h2\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        },
+        "decision_dropdown": {
+          "compName": "DropdownWidget",
+          "containerId": "DAM_reviews_container",
+          "events": {
+            "onChange": {
+              "name": "DAM_setDecisionAuditButtonReadOnly"
+            }
+          },
+          "id": "decision_dropdown",
+          "label": "appbuilder.toolboxitem.dropdown.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "enableClear": true
+          },
+          "sasProvided": true
+        },
+        "submit_decision_for_audit": {
+          "compName": "Button",
+          "containerId": "DAM_reviews_container",
+          "events": {
+            "click": {
+              "name": "DAM_createDecisionAuditLogFile"
+            }
+          },
+          "id": "submit_decision_for_audit",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "shrink": false
+          },
+          "sasProvided": true
+        }
+      },
+      "Link to Explore VA Report": {
+        "reviewVAReport": {
+          "compName": "LinkWidget",
+          "containerId": "DAM_reviews_container",
+          "id": "reviewVAReport",
+          "label": "appbuilder.toolboxitem.link.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "linkText": "View the report.",
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        }
+      },
+      "Link to Model": {
+        "DAM_registeredModelDropdown": {
+          "compName": "DropdownWidget",
+          "containerId": "DAM_reviews_container",
+          "events": {
+            "onChange": {
+              "name": "DAM_handleRegisteredModel"
+            }
+          },
+          "id": "DAM_registeredModelDropdown",
+          "label": "appbuilder.toolboxitem.dropdown.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "enableClear": true,
+            "options": {
+              "No": {
+                "index": 0,
+                "label": "No",
+                "value": "No"
+              },
+              "Yes": {
+                "index": 1,
+                "label": "Yes",
+                "value": "Yes"
+              }
+            }
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.07"
+        },
+        "RichText_1": {
+          "compName": "RichText",
+          "containerId": "DAM_reviews_container",
+          "id": "RichText_1",
+          "label": "appbuilder.toolboxitem.richtext.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "value": "\u003ch2\u003e\u003cstrong\u003eAudit Trail Review\u003c/strong\u003e\u003c/h2\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        },
+        "caslibNameWidgetAudit2": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "DAM_reviews_container",
+          "id": "caslibNameWidgetAudit2",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true
+        },
+        "createdByWidgetAudit": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "DAM_reviews_container",
+          "id": "createdByWidgetAudit",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true
+        },
+        "dateCreatedWidgetAudit": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "DAM_reviews_container",
+          "id": "dateCreatedWidgetAudit",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true
+        },
+        "dateModifiedWidgetAudit": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "DAM_reviews_container",
+          "id": "dateModifiedWidgetAudit",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true
+        },
+        "inputTableWidgetAudit2": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "DAM_reviews_container",
+          "id": "inputTableWidgetAudit2",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true
+        },
+        "modelRepoDropdownAudit": {
+          "compName": "DropdownWidget",
+          "containerId": "DAM_reviews_container",
+          "events": {
+            "onChange": {
+              "name": "DAM_setModelInfoValues"
+            }
+          },
+          "id": "modelRepoDropdownAudit",
+          "label": "appbuilder.toolboxitem.dropdown.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "enableClear": true
+          },
+          "sasProvided": true
+        },
+        "model_link_widget": {
+          "compName": "LinkWidget",
+          "containerId": "DAM_reviews_container",
+          "id": "model_link_widget",
+          "label": "appbuilder.toolboxitem.link.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "boldLabel": false,
+            "colon": true,
+            "linkText": "Link to Model",
+            "stacked": true
+          },
+          "sasProvided": true
+        },
+        "modifiedByWidgetAudit": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "DAM_reviews_container",
+          "id": "modifiedByWidgetAudit",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true
+        },
+        "projectNameWidgetAudit": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "DAM_reviews_container",
+          "id": "projectNameWidgetAudit",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true
+        },
+        "submit_model_for_audit": {
+          "compName": "Button",
+          "containerId": "DAM_reviews_container",
+          "events": {
+            "click": {
+              "name": "DAM_createModelAuditLogFile"
+            }
+          },
+          "id": "submit_model_for_audit",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "shrink": false
+          },
+          "sasProvided": true
+        },
+        "targetVarWidgetAudit2": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "DAM_reviews_container",
+          "id": "targetVarWidgetAudit2",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true
+        }
+      },
+      "Link to Opt Model": {
+        "DAM_contraintsTableName": {
+          "compName": "DropdownWidget",
+          "containerId": "DAM_reviews_container",
+          "id": "DAM_contraintsTableName",
+          "label": "appbuilder.toolboxitem.dropdown.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "enableClear": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.07"
+        },
+        "DAM_objectiveFunctionTableName": {
+          "compName": "DropdownWidget",
+          "containerId": "DAM_reviews_container",
+          "id": "DAM_objectiveFunctionTableName",
+          "label": "appbuilder.toolboxitem.dropdown.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "enableClear": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.07"
+        },
+        "DAM_optTableName": {
+          "compName": "DropdownWidget",
+          "containerId": "DAM_reviews_container",
+          "events": {},
+          "id": "DAM_optTableName",
+          "label": "appbuilder.toolboxitem.dropdown.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "enableClear": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "DAM_tableRegistered": {
+          "compName": "DropdownWidget",
+          "containerId": "DAM_reviews_container",
+          "events": {
+            "onChange": {
+              "name": "DAM_handleRegisteredTable"
+            }
+          },
+          "id": "DAM_tableRegistered",
+          "label": "appbuilder.toolboxitem.dropdown.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "enableClear": false,
+            "options": {
+              "No": {
+                "index": 1,
+                "label": "No",
+                "value": "No"
+              },
+              "Yes": {
+                "index": 0,
+                "label": "Yes",
+                "value": "Yes"
+              }
+            }
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.07"
+        },
+        "RichText_8": {
+          "compName": "RichText",
+          "containerId": "DAM_reviews_container",
+          "id": "RichText_8",
+          "label": "appbuilder.toolboxitem.richtext.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "value": "\u003ch2\u003e\u003cstrong\u003eAudit Trail Review\u003c/strong\u003e\u003c/h2\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.07"
+        },
+        "linkToOptModelWidget": {
+          "compName": "LinkWidget",
+          "containerId": "DAM_reviews_container",
+          "id": "linkToOptModelWidget",
+          "label": "appbuilder.toolboxitem.link.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "linkText": "Link to model",
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        }
+      },
+      "Link to Perform Backtesting VA Reports": {
+        "vaBacktestingGroupableContainer": {
+          "compName": "GroupableContainer",
+          "containerId": "DAM_reviews_container",
+          "id": "vaBacktestingGroupableContainer",
+          "label": "appbuilder.toolboxitem.groupableContainer.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "activeIndex": 1,
+            "childProps": {
+              "AUTO_INSURANCE_PRICING_WORKFLOW": {
+                "name": "AUTO_INSURANCE_PRICING_WORKFLOW",
+                "position": 1
+              },
+              "AUTO_INS_PRICING_DETL_FREQSEV_WORKFLOW": {
+                "name": "AUTO_INS_PRICING_DETL_FREQSEV_WORKFLOW",
+                "position": 2
+              },
+              "AUTO_INS_PRICING_DETL_PUREPREM_WORKFLOW": {
+                "name": "AUTO_INS_PRICING_DETL_PUREPREM_WORKFLOW",
+                "position": 3
+              },
+              "default": {
+                "name": "default",
+                "position": 0
+              }
+            },
+            "removePadding": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.06"
+        }
+      },
+      "Link to Transition Created VA Report": {
+        "linkToTransitionCreatedVAReport": {
+          "compName": "LinkWidget",
+          "containerId": "DAM_reviews_container",
+          "id": "linkToTransitionCreatedVAReport",
+          "label": "appbuilder.toolboxitem.link.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        },
+        "linksToImpactAnalysisReports": {
+          "compName": "LinksListWidget",
+          "containerId": "DAM_reviews_container",
+          "id": "linksToImpactAnalysisReports",
+          "label": "appbuilder.toolboxitem.linkslist.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.08"
+        }
+      },
+      "Model Audit": {
+        "ReadonlyFieldWidget_10": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "DAM_reviews_container",
+          "id": "ReadonlyFieldWidget_10",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionDeprecated": "2023.04"
+        },
+        "RichText_3": {
+          "compName": "RichText",
+          "containerId": "DAM_reviews_container",
+          "id": "RichText_3",
+          "label": "appbuilder.toolboxitem.richtext.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "value": "\u003ch2\u003e\u003cstrong\u003eAudit Trail Review\u003c/strong\u003e\u003c/h2\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        },
+        "RichText_7": {
+          "compName": "RichText",
+          "containerId": "DAM_reviews_container",
+          "id": "RichText_7",
+          "label": "appbuilder.toolboxitem.richtext.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "value": "\u003ch4\u003eThe following model project was created\u003c/h4\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        },
+        "caslibNameWidgetAudit": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "DAM_reviews_container",
+          "id": "caslibNameWidgetAudit",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true
+        },
+        "inputTableNameWidgetAudit": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "DAM_reviews_container",
+          "id": "inputTableNameWidgetAudit",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true
+        },
+        "modelNameWidget": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "DAM_reviews_container",
+          "id": "modelNameWidget",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "boldValue": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true
+        },
+        "submit_model_project_for_audit": {
+          "compName": "Button",
+          "containerId": "DAM_reviews_container",
+          "events": {
+            "click": {
+              "name": "DAM_createModelProjectAuditLogFile"
+            }
+          },
+          "id": "submit_model_project_for_audit",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "shrink": false
+          },
+          "sasProvided": true
+        },
+        "targetVarWidgetAudit": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "DAM_reviews_container",
+          "id": "targetVarWidgetAudit",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true
+        },
+        "templateNameWidgetAudit": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "DAM_reviews_container",
+          "id": "templateNameWidgetAudit",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true
+        }
+      },
+      "VAReport Audit": {
+        "ReadonlyFieldWidget_12": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "DAM_reviews_container",
+          "id": "ReadonlyFieldWidget_12",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionDeprecated": "2023.04"
+        },
+        "RichText_5": {
+          "compName": "RichText",
+          "containerId": "DAM_reviews_container",
+          "id": "RichText_5",
+          "label": "appbuilder.toolboxitem.richtext.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "value": "\u003ch2\u003e\u003cstrong\u003eAudit Trail Review\u003c/strong\u003e\u003c/h2\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        },
+        "Submit_VAReport_to_Audit_Button": {
+          "compName": "Button",
+          "containerId": "DAM_reviews_container",
+          "events": {
+            "click": {
+              "name": "DAM_createVAReportAuditLogFile"
+            }
+          },
+          "id": "Submit_VAReport_to_Audit_Button",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "shrink": false
+          },
+          "sasProvided": true
+        },
+        "VAReport_Create_DropdownWidget": {
+          "compName": "DropdownWidget",
+          "containerId": "DAM_reviews_container",
+          "events": {
+            "onChange": {
+              "name": "DAM_setVAReportAuditButtonReadOnly"
+            }
+          },
+          "id": "VAReport_Create_DropdownWidget",
+          "label": "appbuilder.toolboxitem.dropdown.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "enableClear": true
+          },
+          "sasProvided": true
+        },
+        "vaExploreDataLink": {
+          "compName": "LinkWidget",
+          "containerId": "DAM_reviews_container",
+          "id": "vaExploreDataLink",
+          "label": "appbuilder.toolboxitem.link.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "linkText": "Explore and visualize the data.",
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        },
+        "vaExploreDataLinkOD": {
+          "compName": "LinkWidget",
+          "containerId": "DAM_reviews_container",
+          "id": "vaExploreDataLinkOD",
+          "label": "appbuilder.toolboxitem.link.title",
+          "libName": "base",
+          "parentId": "DAM_reviews_container",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "linkText": "Explore and visualize the data.",
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        }
+      },
+      "default": {}
+    },
+    "FolderGroupableContainer": {
+      "atStartWorkflow": {
+        "casServerDropdown": {
+          "compName": "DropdownWidget",
+          "containerId": "FolderGroupableContainer",
+          "events": {
+            "onChange": {
+              "name": "DAM_setCaslibAtStart"
+            }
+          },
+          "id": "casServerDropdown",
+          "label": "appbuilder.toolboxitem.dropdown.title",
+          "libName": "base",
+          "parentId": "FolderGroupableContainer",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "enableClear": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        },
+        "caslibDropdownStartPage": {
+          "compName": "DropdownWidget",
+          "containerId": "FolderGroupableContainer",
+          "events": {
+            "onChange": {
+              "name": "DAM_setCasFields"
+            }
+          },
+          "id": "caslibDropdownStartPage",
+          "label": "appbuilder.toolboxitem.dropdown.title",
+          "libName": "base",
+          "parentId": "FolderGroupableContainer",
+          "props": {
+            "align": "start",
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        },
+        "contentFolderDropdown": {
+          "compName": "DropdownWidget",
+          "containerId": "FolderGroupableContainer",
+          "events": {
+            "onChange": {
+              "name": "DAM_getContentFolderID"
+            }
+          },
+          "id": "contentFolderDropdown",
+          "label": "appbuilder.toolboxitem.dropdown.title",
+          "libName": "base",
+          "parentId": "FolderGroupableContainer",
+          "props": {
+            "align": "start",
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        }
+      },
+      "default": {
+        "DAM_casServer": {
+          "compName": "InputText",
+          "containerId": "FolderGroupableContainer",
+          "fieldName": "DAM_casServer",
+          "id": "DAM_casServer",
+          "libName": "base",
+          "parentId": "FolderGroupableContainer",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        },
+        "DAM_caslibName": {
+          "compName": "InputText",
+          "containerId": "FolderGroupableContainer",
+          "fieldName": "DAM_caslibName",
+          "id": "DAM_caslibName",
+          "libName": "base",
+          "parentId": "FolderGroupableContainer",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        },
+        "DAM_contentFolderName": {
+          "compName": "InputText",
+          "containerId": "FolderGroupableContainer",
+          "fieldName": "DAM_contentFolderName",
+          "id": "DAM_contentFolderName",
+          "libName": "base",
+          "parentId": "FolderGroupableContainer",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        }
+      }
+    },
+    "TabView": {
+      "tab1": {}
+    },
+    "base": {
+      "Accordion": {
+        "compName": "Accordion",
+        "containerId": "base",
+        "id": "Accordion",
+        "label": "appbuilder.toolboxitem.accordion.title",
+        "libName": "base",
+        "props": {
+          "activeIndex": 0,
+          "childProps": {
+            "classifications": {
+              "label": "Classifications",
+              "name": "classifications",
+              "position": 0
+            }
+          },
+          "showOutline": false
+        },
+        "sasProvided": true
+      },
+      "WorkflowDiagram": {
+        "compName": "WorkflowDiagram",
+        "containerId": "base",
+        "id": "WorkflowDiagram",
+        "label": "appbuilder.toolboxitem.workflowDiagram.title",
+        "libName": "base",
+        "props": {
+          "colon": true,
+          "useHorizontalAlign": true
+        },
+        "sasProvided": true
+      },
+      "main_tabs": {
+        "compName": "TabView",
+        "id": "main_tabs",
+        "label": "appbuilder.toolboxitem.tabview.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 2,
+          "childProps": {
+            "tabAnalysisRuns": {
+              "id": "tabAnalysisRuns",
+              "label": "Analysis Runs",
+              "name": "tabAnalysisRuns",
+              "position": 3
+            },
+            "tabAudit": {
+              "id": "tabAudit",
+              "label": "Audit Trail",
+              "name": "tabAudit",
+              "position": 8
+            },
+            "tabChangeHistory": {
+              "label": "Change History",
+              "name": "tabChangeHistory",
+              "position": 6
+            },
+            "tabDebug": {
+              "id": "tabDebug",
+              "label": "Debug",
+              "name": "tabDebug",
+              "position": 7
+            },
+            "tabDetails": {
+              "id": "tabDetails",
+              "label": "Details",
+              "name": "tabDetails",
+              "position": 0
+            },
+            "tabDocumentation": {
+              "label": "Documentation",
+              "name": "tabDocumentation",
+              "position": 5
+            },
+            "tabExecutionLogs": {
+              "id": "tabExecutionLogs",
+              "label": "Execution Logs",
+              "name": "tabExecutionLogs",
+              "position": 4
+            },
+            "tabParameters": {
+              "id": "tabParameters",
+              "label": "Parameters",
+              "name": "tabParameters",
+              "position": 1
+            },
+            "tabReviews": {
+              "label": "Reviews",
+              "name": "tabReviews",
+              "position": 2
+            }
+          },
+          "verticalTabs": false
+        },
+        "sasProvided": true
+      },
+      "name_readonly": {
+        "compName": "ReadonlyFieldWidget",
+        "id": "name_readonly",
+        "label": "",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "boldLabel": true,
+          "boldValue": true,
+          "colon": false,
+          "stacked": false
+        },
+        "sasProvided": true
+      },
+      "parallel_task_container": {
+        "compName": "GroupableContainer",
+        "id": "parallel_task_container",
+        "label": "appbuilder.toolboxitem.groupableContainer.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 1,
+          "childProps": {
+            "PARALLEL": {
+              "name": "PARALLEL",
+              "position": 1
+            },
+            "default": {
+              "name": "default",
+              "position": 0
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "statusCd": {
+        "compName": "Dropdown",
+        "containerId": "base",
+        "fieldName": "statusCd",
+        "id": "statusCd",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "boldValue": true,
+          "colon": true,
+          "displayAsText": true,
+          "stacked": false
+        },
+        "sasProvided": true,
+        "versionAdded": "2023.03"
+      },
+      "workflow_container": {
+        "compName": "GroupableContainer",
+        "id": "workflow_container",
+        "label": "appbuilder.toolboxitem.groupableContainer.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 5,
+          "childProps": {
+            "CLAIMED_BY_ME": {
+              "name": "CLAIMED_BY_ME",
+              "position": 5
+            },
+            "CLAIMED_BY_OTHER": {
+              "name": "CLAIMED_BY_OTHER",
+              "position": 4
+            },
+            "COMPLETED": {
+              "name": "COMPLETED",
+              "position": 7
+            },
+            "DRAFT": {
+              "name": "DRAFT",
+              "position": 6
+            },
+            "IN_PROGRESS": {
+              "name": "IN_PROGRESS",
+              "position": 8
+            },
+            "NOT_STARTED": {
+              "name": "NOT_STARTED",
+              "position": 1
+            },
+            "NO_TASKS": {
+              "name": "NO_TASKS",
+              "position": 2
+            },
+            "UNCLAIMED": {
+              "name": "UNCLAIMED",
+              "position": 3
+            },
+            "default": {
+              "name": "default",
+              "position": 0
+            }
+          }
+        },
+        "sasProvided": true
+      }
+    },
+    "instance_details": {
+      "details": {}
+    },
+    "main_tabs": {
+      "tabAnalysisRuns": {
+        "AnalysisRun": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "main_tabs",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            }
+          },
+          "fieldName": "AnalysisRun",
+          "id": "AnalysisRun",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        },
+        "linked_AnalysisRuns": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "main_tabs",
+          "fieldName": "AnalysisRun",
+          "id": "linked_AnalysisRuns",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.02",
+          "versionDeprecated": "2023.04"
+        }
+      },
+      "tabAudit": {
+        "auditTrailLogs": {
+          "compName": "GenericSpreadsheetWidget",
+          "containerId": "main_tabs",
+          "id": "auditTrailLogs",
+          "label": "appbuilder.toolboxitem.spreadsheet.generic.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "columnMetaData": "{\"table\": {\"options\": {\"selectionMode\": \"Single\"},\"columnOptions\": {\"areLabelsLocalized\": true,\"visible\": true,\"defaultVisible\": true,\"autoResizable\": true,\"readonly\": true,\"width\": \"150px\"},\"cellOptions\": {\"readonly\": true,\"cellType\": \"string\"}},\"columns\": [{\"options\": {\"id\": \"executionOrder\",\"label\": \"Execution Order\",\"columnType\": \"number\",\"sortProperty\": \"executionOrder\"}},{\"options\": {\"id\": \"executionStatus\",\"label\": \"Execution Status\",\"columnType\": \"string\",\"sortProperty\": \"executionStatus\"}},{\"options\": {\"id\": \"cycleId\",\"label\": \"Cycle ID\",\"columnType\": \"string\"}},{\"options\": {\"id\": \"userTaskName\",\"label\": \"User Task Name\",\"columnType\": \"string\",\"sortProperty\": \"userTaskName\"}},{\"options\": {\"id\": \"userName\",\"label\": \"User Name\",\"columnType\": \"string\",\"sortProperty\": \"userName\"}},{\"options\": {\"id\": \"analysisRunCreationTime\",\"label\": \"Analysis Run Creation Time\",\"columnType\": \"string\",\"sortProperty\": \"analysisRunCreationTime\"}},{\"options\": {\"id\": \"auditSubmissionTime\",\"label\": \"Audit Submission Time\",\"columnType\": \"string\",\"sortProperty\": \"auditSubmissionTime\"}},{\"options\": {\"id\": \"inputTableName\",\"label\": \"Input Table Name\",\"columnType\": \"string\",\"sortProperty\": \"inputTableName\"}},{\"options\": {\"id\": \"outputTableName\",\"label\": \"Output Table Name\",\"columnType\": \"string\",\"sortProperty\": \"outputTableName\"}},{\"options\": {\"id\": \"importedTableInfo\",\"label\": \"Imported Table Info\",\"columnType\": \"string\"}},{\"options\": {\"id\": \"vaReportInfo\",\"label\": \"VA Report Info\",\"columnType\": \"string\"}},{\"options\": {\"id\": \"msProjectInfo\",\"label\": \"MS Project Info\",\"columnType\": \"string\"}},{\"options\": {\"id\": \"decisionFlowInfo\",\"label\": \"Decision Flow Info\",\"columnType\": \"string\"}},{\"options\": {\"id\": \"additionalInfo\",\"label\": \"Additional Info\",\"columnType\": \"string\"}}]}",
+            "suppressToolBarAddAction": false,
+            "suppressToolBarDeleteAction": true,
+            "value": "\u003cp\u003e{\u003c/p\u003e\u003cp\u003e\"table\": {\u003c/p\u003e\u003cp\u003e\"options\": {\u003c/p\u003e\u003cp\u003e\"selectionMode\": \"Single\"\u003c/p\u003e\u003cp\u003e},\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"columnOptions\": {\u003c/p\u003e\u003cp\u003e\"areLabelsLocalized\": true,\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"visible\": true,\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"defaultVisible\": true,\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"autoResizable\": true,\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"readonly\": true,\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"width\": \"150px\"\u003c/p\u003e\u003cp\u003e},\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"cellOptions\": {\u003c/p\u003e\u003cp\u003e\"readonly\": true,\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"cellType\": \"string\"\u003c/p\u003e\u003cp\u003e}\u003c/p\u003e\u003cp\u003e},\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"columns\": [\u003c/p\u003e\u003cp\u003e{\u003c/p\u003e\u003cp\u003e\"options\": {\u003c/p\u003e\u003cp\u003e\"id\": \"executionOrder\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"label\": \"Execution Order\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"columnType\": \"number\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"sortProperty\": \"executionOrder\"\u003c/p\u003e\u003cp\u003e}\u003c/p\u003e\u003cp\u003e},\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e{\u003c/p\u003e\u003cp\u003e\"options\": {\u003c/p\u003e\u003cp\u003e\"id\": \"executionStatus\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"label\": \"Execution Status\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"columnType\": \"string\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"sortProperty\": \"executionStatus\"\u003c/p\u003e\u003cp\u003e}\u003c/p\u003e\u003cp\u003e},\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e{\u003c/p\u003e\u003cp\u003e\"options\": {\u003c/p\u003e\u003cp\u003e\"id\": \"cycleId\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"label\": \"Cycle ID\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"columnType\": \"string\"\u003c/p\u003e\u003cp\u003e}\u003c/p\u003e\u003cp\u003e},\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e{\u003c/p\u003e\u003cp\u003e\"options\": {\u003c/p\u003e\u003cp\u003e\"id\": \"userTaskName\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"label\": \"User Task Name\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"columnType\": \"string\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"sortProperty\": \"userTaskName\"\u003c/p\u003e\u003cp\u003e}\u003c/p\u003e\u003cp\u003e},\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e{\u003c/p\u003e\u003cp\u003e\"options\": {\u003c/p\u003e\u003cp\u003e\"id\": \"userName\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"label\": \"User Name\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"columnType\": \"string\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"sortProperty\": \"userName\"\u003c/p\u003e\u003cp\u003e}\u003c/p\u003e\u003cp\u003e},\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e{\u003c/p\u003e\u003cp\u003e\"options\": {\u003c/p\u003e\u003cp\u003e\"id\": \"analysisRunCreationTime\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"label\": \"Analysis Run Creation Time\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"columnType\": \"string\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"sortProperty\": \"analysisRunCreationTime\"\u003c/p\u003e\u003cp\u003e}\u003c/p\u003e\u003cp\u003e},\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e{\u003c/p\u003e\u003cp\u003e\"options\": {\u003c/p\u003e\u003cp\u003e\"id\": \"auditSubmissionTime\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"label\": \"Audit Submission Time\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"columnType\": \"string\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"sortProperty\": \"auditSubmissionTime\"\u003c/p\u003e\u003cp\u003e}\u003c/p\u003e\u003cp\u003e},\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e{\u003c/p\u003e\u003cp\u003e\"options\": {\u003c/p\u003e\u003cp\u003e\"id\": \"inputTableName\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"label\": \"Input Table Name\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"columnType\": \"string\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"sortProperty\": \"inputTableName\"\u003c/p\u003e\u003cp\u003e}\u003c/p\u003e\u003cp\u003e},\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e{\u003c/p\u003e\u003cp\u003e\"options\": {\u003c/p\u003e\u003cp\u003e\"id\": \"outputTableName\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"label\": \"Output Table Name\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"columnType\": \"string\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"sortProperty\": \"outputTableName\"\u003c/p\u003e\u003cp\u003e}\u003c/p\u003e\u003cp\u003e},\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e{\u003c/p\u003e\u003cp\u003e\"options\": {\u003c/p\u003e\u003cp\u003e\"id\": \"importedTableInfo\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"label\": \"Imported Table Info\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"columnType\": \"string\"\u003c/p\u003e\u003cp\u003e}\u003c/p\u003e\u003cp\u003e},\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e{\u003c/p\u003e\u003cp\u003e\"options\": {\u003c/p\u003e\u003cp\u003e\"id\": \"vaReportInfo\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"label\": \"VA Report Info\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"columnType\": \"string\"\u003c/p\u003e\u003cp\u003e}\u003c/p\u003e\u003cp\u003e},\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e{\u003c/p\u003e\u003cp\u003e\"options\": {\u003c/p\u003e\u003cp\u003e\"id\": \"msProjectInfo\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"label\": \"MS Project Info\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"columnType\": \"string\"\u003c/p\u003e\u003cp\u003e}\u003c/p\u003e\u003cp\u003e},\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e{\u003c/p\u003e\u003cp\u003e\"options\": {\u003c/p\u003e\u003cp\u003e\"id\": \"decisionFlowInfo\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"label\": \"Decision Flow Info\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"columnType\": \"string\"\u003c/p\u003e\u003cp\u003e}\u003c/p\u003e\u003cp\u003e},\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e{\u003c/p\u003e\u003cp\u003e\"options\": {\u003c/p\u003e\u003cp\u003e\"id\": \"additionalInfo\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"label\": \"Additional Info\",\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\"columnType\": \"string\"\u003c/p\u003e\u003cp\u003e}\u003c/p\u003e\u003cp\u003e}\u003c/p\u003e\u003cp\u003e]\u003c/p\u003e\u003cp\u003e}\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u0026nbsp;\u003c/p\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.08"
+        },
+        "audit_log_links_list_widget": {
+          "compName": "LinksListWidget",
+          "containerId": "main_tabs",
+          "id": "audit_log_links_list_widget",
+          "label": "appbuilder.toolboxitem.linkslist.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionDeprecated": "2023.08"
+        }
+      },
+      "tabChangeHistory": {
+        "ChangeHistory": {
+          "compName": "ChangeHistory",
+          "containerId": "main_tabs",
+          "id": "ChangeHistory",
+          "label": "appbuilder.toolboxitem.changeHistory.title",
+          "libName": "base",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "tabDebug": {
+        "LinkWorkflowDebugging": {
+          "compName": "LinkWidget",
+          "containerId": "main_tabs",
+          "id": "LinkWorkflowDebugging",
+          "label": "appbuilder.toolboxitem.link.title",
+          "libName": "base",
+          "props": {
+            "align": "start",
+            "linkText": "Open Workflow Instance",
+            "stacked": false
+          },
+          "sasProvided": true
+        }
+      },
+      "tabDetails": {
+        "CodeLibrary": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "instance_details",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            },
+            "onAddedLinkInstances": {
+              "name": "onLibraryAdded"
+            },
+            "onRemovedLinkInstances": {
+              "name": "onLibraryRemoved"
+            }
+          },
+          "fieldName": "CodeLibrary",
+          "id": "CodeLibrary",
+          "libName": "base",
+          "props": {},
+          "sasProvided": true
+        },
+        "FolderGroupableContainer": {
+          "compName": "GroupableContainer",
+          "containerId": "main_tabs",
+          "id": "FolderGroupableContainer",
+          "label": "appbuilder.toolboxitem.groupableContainer.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "activeIndex": 1,
+            "childProps": {
+              "atStartWorkflow": {
+                "name": "atStartWorkflow",
+                "position": 1
+              },
+              "default": {
+                "name": "default",
+                "position": 0
+              }
+            },
+            "removePadding": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        },
+        "baseDttm_1": {
+          "compName": "Calendar",
+          "containerId": "main_tabs",
+          "fieldName": "baseDttm",
+          "id": "baseDttm_1",
+          "libName": "base",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionDeprecated": "2023.02"
+        },
+        "core_dependentLibrary": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "instance_details",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            }
+          },
+          "fieldName": "core_dependentLibrary",
+          "id": "core_dependentLibrary",
+          "libName": "base",
+          "props": {},
+          "sasProvided": true
+        },
+        "description": {
+          "compName": "InputTextarea",
+          "events": {},
+          "fieldName": "description",
+          "id": "description",
+          "libName": "base",
+          "parentId": "instance_details",
+          "props": {
+            "colon": true,
+            "rows": 3
+          },
+          "sasProvided": true
+        },
+        "initiatorUserNmReadOnly": {
+          "compName": "ReadonlyFieldWidget",
+          "id": "initiatorUserNmReadOnly",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "instance_details",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true
+        },
+        "linkedConfigurationSets": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "instance_details",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            }
+          },
+          "fieldName": "linkedConfigurationSets",
+          "id": "linkedConfigurationSets",
+          "libName": "base",
+          "props": {},
+          "sasProvided": true
+        },
+        "name": {
+          "compName": "InputText",
+          "events": {
+            "onChange": {
+              "name": "onNameChange"
+            }
+          },
+          "fieldName": "name",
+          "id": "name",
+          "libName": "base",
+          "parentId": "instance_details",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "objectId": {
+          "compName": "InputText",
+          "events": {},
+          "fieldName": "objectId",
+          "id": "objectId",
+          "libName": "base",
+          "parentId": "instance_details",
+          "props": {
+            "colon": true,
+            "validations": [
+              {
+                "id": "pcpricing_validateObjectId",
+                "params": [
+                  {
+                    "datatype": "text",
+                    "name": "input_value"
+                  }
+                ],
+                "type": "$interaction$"
+              }
+            ]
+          },
+          "sasProvided": true
+        },
+        "productSet": {
+          "compName": "Dropdown",
+          "containerId": "main_tabs",
+          "fieldName": "productSet",
+          "id": "productSet",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "align": "start"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.06"
+        },
+        "reportingCurrency": {
+          "compName": "Dropdown",
+          "containerId": "main_tabs",
+          "fieldName": "reportingCurrency",
+          "id": "reportingCurrency",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "align": "start"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.06"
+        },
+        "runTypeCd": {
+          "compName": "Dropdown",
+          "containerId": "main_tabs",
+          "fieldName": "runTypeCd",
+          "id": "runTypeCd",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "align": "start",
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.07"
+        },
+        "workflowTemplate": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            },
+            "onAddedLinkInstances": {
+              "name": "onWorkflowTemplateAdded"
+            },
+            "onRemovedLinkInstances": {
+              "name": "onWorkflowTemplateRemoved"
+            }
+          },
+          "fieldName": "workflowTemplate",
+          "id": "workflowTemplate",
+          "libName": "base",
+          "parentId": "instance_details",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "tabDocumentation": {
+        "additional_comments": {
+          "compName": "Comments",
+          "fieldName": "additional_comments",
+          "id": "additional_comments",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "documentation_attachments": {
+          "compName": "CirrusObjectsAttachments",
+          "fieldName": "documentation_attachments",
+          "id": "documentation_attachments",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "documentation_links": {
+          "compName": "CirrusObjectsLinks",
+          "fieldName": "documentation_links",
+          "id": "documentation_links",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "tabExecutionLogs": {
+        "executionLog": {
+          "compName": "GenericSpreadsheetWidget",
+          "containerId": "main_tabs",
+          "id": "executionLog",
+          "label": "appbuilder.toolboxitem.spreadsheet.generic.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "columnMetaData": "{ \"table\": {  \"options\": {   \"selectionMode\": \"Single\"  },  \"columnOptions\": {   \"areLabelsLocalized\": true,   \"visible\": true,   \"defaultVisible\": true,   \"autoResizable\": true,   \"readonly\": false,   \"width\": \"150px\"  },  \"cellOptions\": {   \"readonly\": false,   \"cellType\": \"string\"  } }, \"columns\": [  {   \"options\": {    \"id\": \"userTaskName\",    \"label\": \"User Task Name\",    \"columnType\": \"string\"   }  },  {   \"options\": {    \"id\": \"analysisRunName\",    \"label\": \"Analysis Run\",    \"columnType\": \"string\"   }  },  {   \"options\": {    \"id\": \"sasCode\",    \"label\": \"SAS Code\",    \"columnType\": \"string\"   },   \"cellOptions\": {    \"cellType\": \"hyperlink\",    \"readonly\": false   }  },  {   \"options\": {    \"id\": \"executionLog\",    \"label\": \"Execution Log\",    \"columnType\": \"string\"   },   \"cellOptions\": {    \"cellType\": \"hyperlink\",    \"readonly\": false   }  } ] }",
+            "value": "\u003cp\u003e{ \u0026nbsp;\"table\": { \u0026nbsp; \u0026nbsp;\"options\": { \u0026nbsp; \u0026nbsp; \u0026nbsp;\"selectionMode\": \"Single\" \u0026nbsp; \u0026nbsp;}, \u0026nbsp; \u0026nbsp;\"columnOptions\": { \u0026nbsp; \u0026nbsp; \u0026nbsp;\"areLabelsLocalized\": true, \u0026nbsp; \u0026nbsp; \u0026nbsp;\"visible\": true, \u0026nbsp; \u0026nbsp; \u0026nbsp;\"defaultVisible\": true, \u0026nbsp; \u0026nbsp; \u0026nbsp;\"autoResizable\": true, \u0026nbsp; \u0026nbsp; \u0026nbsp;\"readonly\": false, \u0026nbsp; \u0026nbsp; \u0026nbsp;\"width\": \"150px\" \u0026nbsp; \u0026nbsp;}, \u0026nbsp; \u0026nbsp;\"cellOptions\": { \u0026nbsp; \u0026nbsp; \u0026nbsp;\"readonly\": false, \u0026nbsp; \u0026nbsp; \u0026nbsp;\"cellType\": \"string\" \u0026nbsp; \u0026nbsp;} \u0026nbsp;}, \u0026nbsp;\"columns\": [ \u0026nbsp; \u0026nbsp;{ \u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\": { \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"userTaskName\", \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"User Task Name\", \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"columnType\": \"string\" \u0026nbsp; \u0026nbsp; \u0026nbsp;} \u0026nbsp; \u0026nbsp;}, \u0026nbsp; \u0026nbsp;{ \u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\": { \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"analysisRunName\", \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"Analysis Run\", \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"columnType\": \"string\" \u0026nbsp; \u0026nbsp; \u0026nbsp;} \u0026nbsp; \u0026nbsp;}, \u0026nbsp; \u0026nbsp;{ \u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\": { \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"sasCode\", \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"SAS Code\", \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"columnType\": \"string\" \u0026nbsp; \u0026nbsp; \u0026nbsp;}, \u0026nbsp; \u0026nbsp; \u0026nbsp;\"cellOptions\": { \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"cellType\": \"hyperlink\", \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"readonly\": false \u0026nbsp; \u0026nbsp; \u0026nbsp;} \u0026nbsp; \u0026nbsp;}, \u0026nbsp; \u0026nbsp;{ \u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\": { \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"executionLog\", \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"Execution Log\", \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"columnType\": \"string\" \u0026nbsp; \u0026nbsp; \u0026nbsp;}, \u0026nbsp; \u0026nbsp; \u0026nbsp;\"cellOptions\": { \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"cellType\": \"hyperlink\", \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"readonly\": false \u0026nbsp; \u0026nbsp; \u0026nbsp;} \u0026nbsp; \u0026nbsp;} \u0026nbsp;] }\u003c/p\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.07"
+        }
+      },
+      "tabParameters": {
+        "ParametersPage": {
+          "compName": "EmbeddedBuilderPage",
+          "containerId": "main_tabs",
+          "events": {},
+          "id": "ParametersPage",
+          "label": "EmbeddedBuilderPage",
+          "libName": "base",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "tabReviews": {
+        "DAM_reviews_container": {
+          "compName": "GroupableContainer",
+          "containerId": "main_tabs",
+          "id": "DAM_reviews_container",
+          "label": "appbuilder.toolboxitem.groupableContainer.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "activeIndex": 7,
+            "childProps": {
+              "Analyze Duplicates No Dups": {
+                "name": "Analyze Duplicates No Dups",
+                "position": 11
+              },
+              "Create Model": {
+                "name": "Create Model",
+                "position": 1
+              },
+              "DataImport Audit": {
+                "name": "DataImport Audit",
+                "position": 6
+              },
+              "Decision Audit": {
+                "name": "Decision Audit",
+                "position": 4
+              },
+              "Link to Explore VA Report": {
+                "name": "Link to Explore VA Report",
+                "position": 9
+              },
+              "Link to Model": {
+                "name": "Link to Model",
+                "position": 2
+              },
+              "Link to Opt Model": {
+                "name": "Link to Opt Model",
+                "position": 7
+              },
+              "Link to Perform Backtesting VA Reports": {
+                "name": "Link to Perform Backtesting VA Reports",
+                "position": 10
+              },
+              "Link to Transition Created VA Report": {
+                "name": "Link to Transition Created VA Report",
+                "position": 8
+              },
+              "Model Audit": {
+                "name": "Model Audit",
+                "position": 3
+              },
+              "VAReport Audit": {
+                "name": "VAReport Audit",
+                "position": 5
+              },
+              "default": {
+                "name": "default",
+                "position": 0
+              }
+            },
+            "removePadding": true
+          },
+          "sasProvided": true
+        },
+        "LinksListWidget": {
+          "compName": "LinksListWidget",
+          "id": "LinksListWidget",
+          "label": "appbuilder.toolboxitem.linkslist.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "align": "start",
+            "boldLabel": false,
+            "boldValue": false,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true
+        }
+      }
+    },
+    "parallel_task_container": {
+      "PARALLEL": {
+        "parallel_task": {
+          "compName": "ReadonlyFieldWidget",
+          "id": "parallel_task",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "parallel_task_container",
+          "props": {
+            "align": "end",
+            "colon": true,
+            "stacked": false
+          },
+          "sasProvided": true
+        },
+        "parallel_task_claimed_by": {
+          "compName": "ReadonlyFieldWidget",
+          "id": "parallel_task_claimed_by",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "parallel_task_container",
+          "props": {
+            "align": "end",
+            "colon": true,
+            "stacked": false
+          },
+          "sasProvided": true
+        }
+      },
+      "default": {}
+    },
+    "vaBacktestingGroupableContainer": {
+      "AUTO_INSURANCE_PRICING_WORKFLOW": {
+        "InputTextWidget": {
+          "compName": "InputTextWidget",
+          "containerId": "vaBacktestingGroupableContainer",
+          "id": "InputTextWidget",
+          "label": "appbuilder.toolboxitem.inputtext.title",
+          "libName": "base",
+          "parentId": "vaBacktestingGroupableContainer",
+          "props": {
+            "colon": true,
+            "displayAsText": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.06"
+        },
+        "bktVALink": {
+          "compName": "LinkWidget",
+          "containerId": "vaBacktestingGroupableContainer",
+          "id": "bktVALink",
+          "label": "appbuilder.toolboxitem.link.title",
+          "libName": "base",
+          "parentId": "vaBacktestingGroupableContainer",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "linkText": "View the frequency backtesting report.",
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.06"
+        },
+        "bktVALink_1": {
+          "compName": "LinkWidget",
+          "containerId": "vaBacktestingGroupableContainer",
+          "id": "bktVALink_1",
+          "label": "appbuilder.toolboxitem.link.title",
+          "libName": "base",
+          "parentId": "vaBacktestingGroupableContainer",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "linkText": "View the severity backtesting report.",
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.06"
+        }
+      },
+      "AUTO_INS_PRICING_DETL_FREQSEV_WORKFLOW": {
+        "InputTextWidget_1": {
+          "compName": "InputTextWidget",
+          "containerId": "vaBacktestingGroupableContainer",
+          "id": "InputTextWidget_1",
+          "label": "appbuilder.toolboxitem.inputtext.title",
+          "libName": "base",
+          "parentId": "vaBacktestingGroupableContainer",
+          "props": {
+            "colon": true,
+            "displayAsText": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.06"
+        },
+        "bktFreqSevVALink": {
+          "compName": "LinkWidget",
+          "containerId": "vaBacktestingGroupableContainer",
+          "id": "bktFreqSevVALink",
+          "label": "appbuilder.toolboxitem.link.title",
+          "libName": "base",
+          "parentId": "vaBacktestingGroupableContainer",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "linkTarget": "_blank",
+            "linkText": "View the frequency backtesting report.",
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.06"
+        },
+        "bktFreqSevVALink_1": {
+          "compName": "LinkWidget",
+          "containerId": "vaBacktestingGroupableContainer",
+          "id": "bktFreqSevVALink_1",
+          "label": "appbuilder.toolboxitem.link.title",
+          "libName": "base",
+          "parentId": "vaBacktestingGroupableContainer",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "linkText": "View the severity backtesting report.",
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.06"
+        }
+      },
+      "AUTO_INS_PRICING_DETL_PUREPREM_WORKFLOW": {
+        "InputTextWidget_2": {
+          "compName": "InputTextWidget",
+          "containerId": "vaBacktestingGroupableContainer",
+          "id": "InputTextWidget_2",
+          "label": "appbuilder.toolboxitem.inputtext.title",
+          "libName": "base",
+          "parentId": "vaBacktestingGroupableContainer",
+          "props": {
+            "colon": true,
+            "displayAsText": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.06"
+        },
+        "bktPPVALink": {
+          "compName": "LinkWidget",
+          "containerId": "vaBacktestingGroupableContainer",
+          "id": "bktPPVALink",
+          "label": "appbuilder.toolboxitem.link.title",
+          "libName": "base",
+          "parentId": "vaBacktestingGroupableContainer",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "linkText": "View the pure premium backtesting report.",
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.06"
+        }
+      },
+      "default": {}
+    },
+    "workflow_container": {
+      "CLAIMED_BY_ME": {
+        "active_task_claimed": {
+          "compName": "ReadonlyFieldWidget",
+          "id": "active_task_claimed",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "end",
+            "colon": true,
+            "stacked": false
+          },
+          "sasProvided": true
+        },
+        "save_claimed_by_me": {
+          "compName": "Button",
+          "events": {
+            "click": {
+              "name": "DAM_onSave_clone"
+            }
+          },
+          "id": "save_claimed_by_me",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "secondary": true,
+            "shrink": false
+          },
+          "sasProvided": true
+        },
+        "unclaim_task": {
+          "compName": "Button",
+          "events": {
+            "click": {
+              "name": "DAM_onReleaseTask_clone"
+            }
+          },
+          "id": "unclaim_task",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "end",
+            "secondary": true,
+            "shrink": true
+          },
+          "sasProvided": true
+        },
+        "workflow_transitions": {
+          "compName": "MultiActionButton",
+          "events": {
+            "onClick": {
+              "name": "DAM_onTransitionGo_clone"
+            }
+          },
+          "id": "workflow_transitions",
+          "label": "appbuilder.toolboxitem.multibutton.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "options": {
+              "CIRRUS_RUN_SCRIPT": {
+                "index": 0,
+                "label": "Execute Script",
+                "value": "CIRRUS_RUN_SCRIPT"
+              },
+              "REJECT": {
+                "index": 3,
+                "label": "Reject",
+                "value": "REJECT"
+              },
+              "SIGNOFF": {
+                "index": 9,
+                "label": "Sign-Off",
+                "value": "SIGNOFF"
+              },
+              "SKIP": {
+                "index": 1,
+                "label": "Skip",
+                "value": "SKIP"
+              },
+              "TERMINATE_WORKFLOW": {
+                "index": 2,
+                "label": "Workflow Complete",
+                "value": "TERMINATE_WORKFLOW"
+              }
+            },
+            "primary": true
+          },
+          "sasProvided": true
+        }
+      },
+      "CLAIMED_BY_OTHER": {
+        "active_task_other_user": {
+          "compName": "ReadonlyFieldWidget",
+          "id": "active_task_other_user",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true
+        },
+        "claimed_by_other_user": {
+          "compName": "ReadonlyFieldWidget",
+          "id": "claimed_by_other_user",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "end",
+            "colon": true,
+            "stacked": false
+          },
+          "sasProvided": true
+        },
+        "save_claimed_by_other": {
+          "compName": "Button",
+          "id": "save_claimed_by_other",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "secondary": true,
+            "shrink": false
+          },
+          "sasProvided": true
+        }
+      },
+      "COMPLETED": {
+        "workflow_complete_msg": {
+          "compName": "ReadonlyFieldWidget",
+          "id": "workflow_complete_msg",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "end",
+            "stacked": true
+          },
+          "sasProvided": true
+        }
+      },
+      "DRAFT": {
+        "save_draft": {
+          "compName": "Button",
+          "events": {
+            "click": {
+              "name": "DAM_onSave_clone"
+            }
+          },
+          "id": "save_draft",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "secondary": true,
+            "shrink": false
+          },
+          "sasProvided": true
+        },
+        "start_workflow_draft": {
+          "compName": "Button",
+          "events": {
+            "click": {
+              "name": "DAM_onStartWorkflowDraft_clone"
+            }
+          },
+          "id": "start_workflow_draft",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "end",
+            "secondary": false,
+            "shrink": false
+          },
+          "sasProvided": true
+        }
+      },
+      "IN_PROGRESS": {
+        "execution_in_progress_msg": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "workflow_container",
+          "id": "execution_in_progress_msg",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "props": {
+            "align": "end",
+            "boldValue": false,
+            "stacked": true
+          },
+          "sasProvided": true
+        }
+      },
+      "NOT_STARTED": {
+        "save_not_started": {
+          "compName": "Button",
+          "events": {
+            "click": {
+              "name": "DAM_onSave_clone"
+            }
+          },
+          "id": "save_not_started",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "secondary": true,
+            "shrink": false
+          },
+          "sasProvided": true
+        },
+        "start_workflow": {
+          "compName": "Button",
+          "events": {
+            "click": {
+              "name": "DAM_onStartWorkflow_clone"
+            }
+          },
+          "id": "start_workflow",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "end",
+            "shrink": false
+          },
+          "sasProvided": true
+        }
+      },
+      "NO_TASKS": {
+        "no_tasks_msg": {
+          "compName": "ReadonlyFieldWidget",
+          "id": "no_tasks_msg",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "end",
+            "stacked": false
+          },
+          "sasProvided": true
+        },
+        "save_not_participant": {
+          "compName": "Button",
+          "events": {
+            "click": {
+              "name": "DAM_onSave_clone"
+            }
+          },
+          "id": "save_not_participant",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "secondary": true,
+            "shrink": false
+          },
+          "sasProvided": true
+        }
+      },
+      "UNCLAIMED": {
+        "active_task_label_unclaimed": {
+          "compName": "ReadonlyFieldWidget",
+          "id": "active_task_label_unclaimed",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "end",
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true
+        },
+        "claim_task": {
+          "compName": "Button",
+          "events": {
+            "click": {
+              "name": "DAM_onClaimTask_clone"
+            }
+          },
+          "id": "claim_task",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "end",
+            "secondary": false,
+            "shrink": true
+          },
+          "sasProvided": true
+        },
+        "save_unclaimed": {
+          "compName": "Button",
+          "events": {
+            "click": {
+              "name": "DAM_onSave_clone"
+            }
+          },
+          "id": "save_unclaimed",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "secondary": true,
+            "shrink": false
+          },
+          "sasProvided": true
+        },
+        "unclaimed_task_dropdown": {
+          "compName": "DropdownWidget",
+          "events": {
+            "onChange": {
+              "name": "onClaimTaskSelectionChanged"
+            }
+          },
+          "id": "unclaimed_task_dropdown",
+          "label": "appbuilder.toolboxitem.dropdown.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "start"
+          },
+          "sasProvided": true
+        }
+      },
+      "default": {}
+    }
+  }
+}
